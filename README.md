@@ -22,6 +22,7 @@ This software is based on DinoDent - a software I originally built for Bulgarian
 - Dental status and procedure procedure input
 - Periodontal status
 - Patient history
+- Appointment schedule
 - Financial documents - invoices, debit and credit notes
 
 ## Setup
