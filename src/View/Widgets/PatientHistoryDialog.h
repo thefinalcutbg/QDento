@@ -33,6 +33,7 @@ public:
 	void setSnapshots(const std::vector<Snapshot>& snapshots);
 	void setDocuments(const PlainTable& docList, const std::vector<PlainTable>& contents);
 	void setPerioSnapshots(const std::vector<PerioSnapshot>& snapshots);
+	void setPatientNoteFlags(const std::array<std::string, 32>& notes);
 
 	~PatientHistoryDialog();
 

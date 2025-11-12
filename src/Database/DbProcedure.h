@@ -11,9 +11,9 @@ class Db;
 
 namespace DbProcedure
 {
-    std::vector<Procedure> getProcedures(long long amblist_rowid, Db& db);
-    std::vector<Procedure>  getProcedures(long long amblist_rowid);
-    void saveProcedures(long long amblist_rowid, const std::vector<Procedure>& p, Db& db);
+    std::vector<Procedure> getProcedures(long long dental_visit_rowid, Db& db);
+    std::vector<Procedure>  getProcedures(long long dental_visit_rowid);
+    void saveProcedures(long long dental_visit_rowid, const std::vector<Procedure>& p, Db& db);
 
     std::vector<Procedure> getToothProcedures(long long patientRowId, int tooth);
     std::vector<Procedure> getPatientProcedures(long long patientRowid);

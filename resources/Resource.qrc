@@ -85,5 +85,6 @@
     </qresource>
     <qresource prefix="/migrations">
         <file>db_migrateTo1.txt</file>
+        <file>db_migrateTo2.txt</file>
     </qresource>
 </RCC>

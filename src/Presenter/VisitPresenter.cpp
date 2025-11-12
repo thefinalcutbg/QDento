@@ -84,7 +84,7 @@ TabName VisitPresenter::getTabName()
     n.footer += patient->lastName;
 
     n.indicatorColor = patient->colorNameRgb;
-
+    n.header_icon = CommonIcon::DENTALVISIT;
     return n;
 }
 
@@ -291,6 +291,8 @@ void VisitPresenter::historyRequested()
     PatientHistoryPresenter pr(*patient);
 
     pr.openDialog();
+
+    view->setNotes(patient->teethNotes);
 }
 
 void VisitPresenter::openDetails(int toothIdx)
@@ -312,9 +314,6 @@ void VisitPresenter::openDetails(int toothIdx)
     patient->teethNotes[toothIdx] = d.getNote();
 
     view->setNotes(patient->teethNotes);
-    surf_presenter.setTooth(m_visit.teeth[m_selectedIndexes[0]], patient->teethNotes[m_selectedIndexes[0]].size());
-    view->repaintTooth(ToothPaintHint(m_visit.teeth[toothIdx], patient->teethNotes[toothIdx]));
-
 }
 
 void VisitPresenter::openDetails()

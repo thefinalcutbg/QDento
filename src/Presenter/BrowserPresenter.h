@@ -47,5 +47,6 @@ public:
 	void openCurrentSelection();
 	void deleteCurrentSelection();
 	void openPatientDocuments(const std::set<int>& selectedIndexes);
+	void editPatientData();
 };
 

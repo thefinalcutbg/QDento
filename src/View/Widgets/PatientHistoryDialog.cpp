@@ -69,6 +69,11 @@ PatientHistoryDialog::PatientHistoryDialog(PatientHistoryPresenter& p, QWidget *
 		}
 	});
 
+	connect(ui.snapshotViewer->getTeethScene(), &TeethViewScene::toothDoubleClicked, this,[&](int idx) {
+
+			presenter.toothHistoryRequested(idx);
+	});
+
 	connect(ui.openDocButton, &QPushButton::clicked, this, [&] {
 
 		auto idx_rows = ui.docView->selectionModel()->selectedRows();
@@ -126,6 +131,11 @@ void PatientHistoryDialog::setPerioSnapshots(const std::vector<PerioSnapshot>& s
 		return;
 	}
 	ui.perioTab->setSnapshots(snapshots);
+}
+
+void PatientHistoryDialog::setPatientNoteFlags(const std::array<std::string, 32>& notes)
+{
+	ui.snapshotViewer->getTeethScene()->setNotes(notes);
 }
 
 PatientHistoryDialog::~PatientHistoryDialog()

@@ -2,6 +2,7 @@
 #include "View/Widgets/BrowserDialog.h"
 #include "View/ModalDialogBuilder.h"
 #include "Presenter/TabPresenter.h"
+#include "Presenter/PatientDialogPresenter.h"
 #include "Database/DbInvoice.h"
 #include "Database/DbProcedure.h"
 #include "Database/DbBrowser.h"
@@ -279,4 +280,18 @@ void BrowserPresenter::openPatientDocuments(const std::set<int>& selectedIndexes
 	}
 
 	if (view) view->close();
+}
+
+void BrowserPresenter::editPatientData()
+{
+	if (m_selectedInstances.empty()) return;
+
+	auto patient = DbPatient::get(m_selectedInstances[0]->patientRowId);
+
+	PatientDialogPresenter d(patient);
+	auto result = d.open();
+
+	if (result) {
+		refreshModel();
+	}
 }

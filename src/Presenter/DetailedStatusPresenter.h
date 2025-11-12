@@ -14,9 +14,6 @@ class DetailedStatusPresenter
 
 	std::vector<Procedure> m_procedures;
 
-	CheckModel m_checkModel;
-	CheckModel m_dsnCheckModel;
-
 	long long patientRowId;
 
 	int m_tooth_index;

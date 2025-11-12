@@ -6,7 +6,7 @@ SnapshotViewer::SnapshotViewer(QWidget *parent)
 {
 	ui.setupUi(this);
 
-	ui.graphicsView->setDisabled(true);
+    ui.graphicsView->disableMultiSelection();
 	ui.graphicsView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 	ui.graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 

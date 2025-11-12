@@ -108,7 +108,7 @@ DentalVisit DbDentalVisit::getNewDoc(long long patientRowId)
 
         db.newStatement(
             "SELECT dental_visit.rowid FROM procedure "
-            "LEFT JOIN dental_visit ON procedure.amblist_rowid = dental_visit.rowid "
+            "LEFT JOIN dental_visit ON procedure.dental_visit_rowid = dental_visit.rowid "
             "WHERE dental_visit.date >= ? AND patient_rowid = ? "
             "GROUP BY dental_visit.rowid ORDER BY dental_visit.date ASC"
         );

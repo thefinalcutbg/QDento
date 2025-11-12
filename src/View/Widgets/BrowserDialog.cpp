@@ -258,6 +258,11 @@ void BrowserDialog::contextMenuRequested(const QPoint& p)
 		connect(action, &QAction::triggered, this, [=, this] { presenter.openNewDocument(TabType::PatientSummary); });
 		action->setIcon(QIcon(":/icons/icon_history.png"));
 		main_menu->addAction(action);
+
+		action = (new QAction("Edit Patient Data", main_menu));
+		connect(action, &QAction::triggered, this, [=, this] { presenter.editPatientData(); });
+		action->setIcon(QIcon(":/icons/icon_edit.png"));
+		main_menu->addAction(action);
 	}
 
 	action = (new QAction("Copy Current Text", main_menu));

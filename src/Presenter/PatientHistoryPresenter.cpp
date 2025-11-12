@@ -5,6 +5,7 @@
 #include "Database/DbPatientSummary.h"
 #include "View/ModalDialogBuilder.h"
 #include "Model/User.h"
+#include "Presenter/DetailedStatusPresenter.h"
 #include "Presenter/TabPresenter.h"
 #include <QObject>
 
@@ -105,6 +106,23 @@ void PatientHistoryPresenter::openDocuments(const std::vector<int>& selectedDocI
 	}
 
 	view.close();
+}
+
+void PatientHistoryPresenter::toothHistoryRequested(int toothIdx)
+{
+	if (toothIdx < 1 || toothIdx > 32) return;
+
+	DetailedStatusPresenter d(
+		toothIdx,
+		patient.rowid,
+		DbProcedure::getToothProcedures(patient.rowid, toothIdx)
+	);
+
+	d.open();
+
+	patient.teethNotes[toothIdx] = d.getNote();
+
+	view.setPatientNoteFlags(patient.teethNotes);
 }
 
 void PatientHistoryPresenter::openDialog()

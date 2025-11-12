@@ -3,18 +3,18 @@
 #include <View/Theme.h>
 #include <QPainter>
 #include <QGraphicsItem>
-GraphicsView::GraphicsView(QWidget *parent)
+GraphicsView::GraphicsView(QWidget* parent)
 	: QGraphicsView(parent)
 {
-	
+
 	setRenderHints(QPainter::Antialiasing | QPainter::SmoothPixmapTransform);
 	setCacheMode(QGraphicsView::CacheBackground);
 	setDragMode(QGraphicsView::RubberBandDrag);
 
-    setStyleSheet("QGraphicsView { background: transparent;}");
-	
+	setStyleSheet("QGraphicsView { background: transparent;}");
+
 	setViewportUpdateMode(QGraphicsView::ViewportUpdateMode::FullViewportUpdate);
-	
+
 }
 
 void GraphicsView::disableMultiSelection()
@@ -24,10 +24,15 @@ void GraphicsView::disableMultiSelection()
 
 void GraphicsView::mousePressEvent(QMouseEvent* event)
 {
+	if (dragMode() != QGraphicsView::DragMode::RubberBandDrag) {
+		QGraphicsView::mousePressEvent(event);
+		return;
+	}
+
 	auto previouslySelectedList = scene()->selectedItems();
 
 	QGraphicsView::mousePressEvent(event);
-	
+
 	if (event->button() == Qt::LeftButton &&
 		!QGuiApplication::keyboardModifiers().testFlag(Qt::ControlModifier)) {
 
@@ -43,9 +48,9 @@ void GraphicsView::mousePressEvent(QMouseEvent* event)
 				i->setSelected(true);
 			}
 		}
-		
+
 	}
-	
+
 }
 
 GraphicsView::~GraphicsView()

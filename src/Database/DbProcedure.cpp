@@ -4,7 +4,7 @@
 #include "Database.h"
 #include "Model/Parser.h"
 
-std::vector<Procedure> DbProcedure::getProcedures(long long amblist_rowid, Db& db)
+std::vector<Procedure> DbProcedure::getProcedures(long long dental_visit_rowid, Db& db)
 {
 	std::vector<Procedure> list;
 
@@ -13,8 +13,8 @@ std::vector<Procedure> DbProcedure::getProcedures(long long amblist_rowid, Db& d
 						"procedure.name, "					//1
 						"procedure.type, "					//2
 						"procedure.price, "					//3
-						"dental_visit.dentist_rowid, "			//4
-						"dental_visit.date, "					//5
+						"dental_visit.dentist_rowid, "		//4
+						"dental_visit.date, "				//5
 						"procedure.diagnosis, "				//6
 						"procedure.notes, "					//7
 						"procedure.at_tooth_index, "		//8
@@ -29,13 +29,13 @@ std::vector<Procedure> DbProcedure::getProcedures(long long amblist_rowid, Db& d
 						"procedure.post, "					//17
 						"procedure.from_tooth_index, "		//18
 						"procedure.to_tooth_index "			//19
-				"FROM procedure LEFT JOIN dental_visit ON procedure.amblist_rowid = dental_visit.rowid "
+				"FROM procedure LEFT JOIN dental_visit ON procedure.dental_visit_rowid = dental_visit.rowid "
 				"WHERE dental_visit.rowid=? "
 				"ORDER BY procedure.rowid";
 
 	db.newStatement(query);
 
-	db.bind(1, amblist_rowid);
+	db.bind(1, dental_visit_rowid);
 
 	while(db.hasRows())
 	{
@@ -88,15 +88,15 @@ std::vector<Procedure> DbProcedure::getProcedures(long long amblist_rowid, Db& d
 
 }
 
-std::vector<Procedure> DbProcedure::getProcedures(long long amblist_rowid)
+std::vector<Procedure> DbProcedure::getProcedures(long long dental_visit_rowid)
 {
 	Db db;
-	return getProcedures(amblist_rowid, db);
+	return getProcedures(dental_visit_rowid, db);
 }
 
-void DbProcedure::saveProcedures(long long amblist_rowid, const std::vector<Procedure>& pList, Db& db)
+void DbProcedure::saveProcedures(long long dental_visit_rowid, const std::vector<Procedure>& pList, Db& db)
 {
-	std::string query = "DELETE FROM procedure WHERE amblist_rowid = " + std::to_string(amblist_rowid);
+	std::string query = "DELETE FROM procedure WHERE dental_visit_rowid = " + std::to_string(dental_visit_rowid);
 
 	db.execute(query);
 
@@ -106,11 +106,11 @@ void DbProcedure::saveProcedures(long long amblist_rowid, const std::vector<Proc
 
 		db.newStatement(
 			"INSERT INTO procedure "
-			"(amblist_rowid, code, name, type, price, diagnosis, notes, at_tooth_index, temporary, supernumeral, "
+			"(dental_visit_rowid, code, name, type, price, diagnosis, notes, at_tooth_index, temporary, supernumeral, "
 			"surface_o, surface_m, surface_d, surface_b, surface_l, surface_c, post, from_tooth_index, to_tooth_index) "
 			"VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-		db.bind(1, amblist_rowid);
+		db.bind(1, dental_visit_rowid);
 		db.bind(2, p.code);
 		db.bind(3, p.name);
 		db.bind(4, static_cast<int>(p.type));
@@ -171,26 +171,31 @@ std::vector<Procedure> DbProcedure::getToothProcedures(long long patientRowId, i
 		"procedure.temporary, "
 		"procedure.supernumeral, "
 		"procedure.diagnosis, "
-		"procedure.notes "
+		"procedure.notes, "
+		"procedure.at_tooth_index, "
+		"procedure.from_tooth_index, "
+		"procedure.to_tooth_index "
 		"FROM "
-		"procedure LEFT JOIN dental_visit ON procedure.amblist_rowid = dental_visit.rowid "
-		"WHERE at_tooth_index = ? "
+		"procedure LEFT JOIN dental_visit ON procedure.dental_visit_rowid = dental_visit.rowid "
+		"WHERE (at_tooth_index = ? "
+		"OR (from_tooth_index <= ? AND to_tooth_index >= ? )) "
 		"AND patient_rowid = ? " 
-		"ORDER BY dental_visit.date ASC, procedure.code ASC, procedure.rowid ASC";
+		"ORDER BY dental_visit.date DESC, procedure.rowid DESC";
 
 	std::vector<Procedure> procedures;
-
+	
 	Db db(query);
 
 	db.bind(1, tooth);
-	db.bind(2, patientRowId);
+	db.bind(2, tooth);
+	db.bind(3, tooth);
+	db.bind(4, patientRowId);
 
 	while (db.hasRows())
 	{
-
 		procedures.emplace_back();
 		auto& p = procedures.back();
-		
+
 		p.date = Date{ db.asString(0) };
 		p.code = db.asString(1);
 		p.name = db.asString(2);
@@ -207,6 +212,14 @@ std::vector<Procedure> DbProcedure::getToothProcedures(long long patientRowId, i
 		p.diagnosis = db.asString(7);
 		p.notes = db.asString(8);
 
+		if (db.asInt(9) != tooth) //a.k.a. is -1
+		{
+			p.affectedTeeth = ConstructionRange{
+				db.asInt(10),
+				db.asInt(11)
+			};
+
+		}
 	}
 
 	return procedures;
@@ -217,8 +230,8 @@ std::vector<Procedure> DbProcedure::getPatientProcedures(long long patientRowid)
 	std::vector<Procedure> mList;
 
 	std::string query = "SELECT "
-				"dental_visit.dentist_rowid, "			//0
-				"dental_visit.date, "					//1
+				"dental_visit.dentist_rowid, "		//0
+				"dental_visit.date, "				//1
 				"procedure.code, "					//2
 				"procedure.name, "					//3
 				"procedure.price, "					//4
@@ -238,7 +251,7 @@ std::vector<Procedure> DbProcedure::getPatientProcedures(long long patientRowid)
 				"procedure.from_tooth_index, "		//18
 				"procedure.to_tooth_index "			//19
 				"FROM procedure "				
-				"LEFT JOIN dental_visit ON procedure.amblist_rowid = dental_visit.rowid "
+				"LEFT JOIN dental_visit ON procedure.dental_visit_rowid = dental_visit.rowid "
 				"LEFT JOIN patient ON dental_visit.patient_rowid = patient.rowid "
 				"WHERE patient.rowid=? "
 				"ORDER BY dental_visit.date DESC";

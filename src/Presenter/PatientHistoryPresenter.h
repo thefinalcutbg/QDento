@@ -25,5 +25,7 @@ public:
 
 	void openDocuments(const std::vector<int>& selectedDocIdx);
 
+	void toothHistoryRequested(int toothIdx);
+
 	void openDialog();
 };

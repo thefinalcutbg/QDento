@@ -44,6 +44,27 @@ Procedure::Scope Procedure::getScope(Type type)
 	return map.at(type);
 }
 
+bool Procedure::affectsToothIdx(int toothIdx) const
+{
+	auto scope = getScope();
+
+	switch (scope)
+	{
+	case Scope::SingleTooth:
+	{
+		auto& toothIdxObj = getToothIndex();
+		return toothIdxObj.index == toothIdx;
+	}
+	case Scope::Range:
+	{
+		auto& range = std::get<ConstructionRange>(affectedTeeth);
+		return toothIdx >= range.toothFrom && toothIdx <= range.toothTo;
+	}
+	}
+
+	return false;
+}
+
 std::vector<int> Procedure::getArrayIndexes() const
 {
 	std::vector<int> result;

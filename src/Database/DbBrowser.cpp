@@ -73,7 +73,7 @@ std::pair<std::vector<RowInstance>, PlainTable> getAmbRows(const Date& from, con
         "patient.color "
         "FROM dental_visit "
         "JOIN patient ON dental_visit.patient_rowid = patient.rowid "
-        "LEFT JOIN procedure ON dental_visit.rowid = procedure.amblist_rowid "
+        "LEFT JOIN procedure ON dental_visit.rowid = procedure.dental_visit_rowid "
         "WHERE strftime('%Y-%m-%d', dental_visit.date) BETWEEN '" + from.to8601() + "' AND '" + to.to8601() + "' "
         "AND dental_visit.dentist_rowid = ? "
         "GROUP BY dental_visit.rowid "
@@ -261,7 +261,7 @@ std::pair<std::vector<RowInstance>, PlainTable> DbBrowser::getPatientDocuments(l
         switch (type) {
             case 1: 
                 docTypeString = "Dental Visit";
-                docTypeIcon = CommonIcon::dental_visit;
+                docTypeIcon = CommonIcon::DENTALVISIT;
                 break;
             case 2:
                 docTypeString = "Periodontal Measurment";

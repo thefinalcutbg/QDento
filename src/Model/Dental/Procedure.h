@@ -104,6 +104,7 @@ struct Procedure
     //Can return invalid index with -1 value
     const ToothIndex& getToothIndex() const;
     bool hasSurfaceData() const { return type == Type::Restoration || type == Type::RemoveRestoration; }
+    bool affectsToothIdx(int toothIdx) const;
     std::vector<int> getArrayIndexes() const;
     std::string getToothString() const;
 };
