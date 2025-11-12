@@ -13,7 +13,7 @@
   <widget class="StatusButton" name="Caries">
    <property name="geometry">
     <rect>
-     <x>180</x>
+     <x>183</x>
      <y>8</y>
      <width>161</width>
      <height>27</height>
@@ -50,7 +50,7 @@
   <widget class="StatusButton" name="Restoration">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>13</x>
      <y>8</y>
      <width>161</width>
      <height>27</height>
@@ -783,7 +783,7 @@
   <widget class="StatusButton" name="DefResto">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>13</x>
      <y>40</y>
      <width>161</width>
      <height>27</height>
@@ -820,7 +820,7 @@
   <widget class="StatusButton" name="NonCaries">
    <property name="geometry">
     <rect>
-     <x>180</x>
+     <x>183</x>
      <y>40</y>
      <width>161</width>
      <height>27</height>
