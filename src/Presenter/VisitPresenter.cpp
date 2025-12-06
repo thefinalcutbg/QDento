@@ -314,6 +314,8 @@ void VisitPresenter::openDetails(int toothIdx)
     patient->teethNotes[toothIdx] = d.getNote();
 
     view->setNotes(patient->teethNotes);
+    surf_presenter.setTooth(m_visit.teeth[m_selectedIndexes[0]], patient->teethNotes[m_selectedIndexes[0]].size());
+
 }
 
 void VisitPresenter::openDetails()
