@@ -37,7 +37,7 @@ void RecipientTileButton::paintInfo(QPainter* painter)
 	painter->drawText(20 + horizontalAdvance(tr("Phone Number: ")), rowYPos[3], this->phone);
 
 	painter->setFont(header);
-	painter->setPen(hover && !clicked ? QPen(Theme::fontRedClicked) : QPen(QColor(Theme::fontRed)));
+	painter->setPen(QPen(animatedColor(Theme::fontRed, Theme::fontRedClicked)));
 	painter->drawText(20, 30, tr("Recipient"));
 }
 
@@ -65,7 +65,7 @@ void IssuerTileButton::paintInfo(QPainter* painter)
 	//painter->drawText(20 + horizontalAdvance(tr("Phone Number: ")), rowYPos[3], this->phone);
 
 	painter->setFont(header);
-	painter->setPen(hover && !clicked ? QPen(Theme::fontRedClicked) : QPen(QColor(Theme::fontRed)));
+	painter->setPen(QPen(animatedColor(Theme::fontRed, Theme::fontRedClicked)));
 	painter->drawText(20, 30, tr("Issuer"));
 
 }

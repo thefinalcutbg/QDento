@@ -1,6 +1,8 @@
 ﻿#include "TileButton.h"
 #include <QPainterPath>
 #include <QMouseEvent>
+#include <QVariantAnimation>
+#include <QEasingCurve>
 #include "View/Theme.h"
 #include <QApplication>
 #include "View/Graphics/Zodiac.h"
@@ -9,107 +11,144 @@
 
 TileButton::TileButton(QWidget* parent) : QAbstractButton(parent)
 {
-	header.setBold(1);
-    header.setPointSizeF(info.pointSizeF()+6);
+    header.setBold(true);
+    header.setPointSizeF(info.pointSizeF() + 6);
+    infoLabel.setBold(true);
 
-	infoLabel.setBold(true);
+    installEventFilter(this);
 
-	this->installEventFilter(this);
+    m_hoverAnimation = new QVariantAnimation(this);
+    m_hoverAnimation->setDuration(150);
+    m_hoverAnimation->setEasingCurve(QEasingCurve::OutCubic);
+    m_hoverAnimation->setStartValue(0.0);
+    m_hoverAnimation->setEndValue(0.0);
+
+    connect(m_hoverAnimation, &QVariantAnimation::valueChanged, this,
+        [this](const QVariant& value) {
+            m_hoverProgress = value.toReal();
+            update();
+        });
+}
+
+QColor TileButton::animatedColor(const QColor& normal, const QColor& hover) const
+{
+    auto mixChannel = [](int a, int b, qreal t) -> int {
+        return a + qRound((b - a) * t);
+        };
+
+    qreal t = m_hoverProgress;
+    if (t < 0.0) t = 0.0;
+    if (t > 1.0) t = 1.0;
+
+    if (clicked)
+        t = 0.0;
+
+    QColor result;
+    result.setRed(mixChannel(normal.red(), hover.red(), t));
+    result.setGreen(mixChannel(normal.green(), hover.green(), t));
+    result.setBlue(mixChannel(normal.blue(), hover.blue(), t));
+    result.setAlpha(mixChannel(normal.alpha(), hover.alpha(), t));
+    return result;
 }
 
 void TileButton::paintEvent(QPaintEvent*)
 {
-	QPainter painter(this);
-	painter.setRenderHint(QPainter::SmoothPixmapTransform);
+    QPainter painter(this);
+    painter.setRenderHint(QPainter::SmoothPixmapTransform);
 
-	//getting the half-rounded button path:
+    auto path = Theme::getHalfCurvedPath(width(), height());
 
-	auto path = QPainterPath();
-	
-	path.addRoundedRect(this->rect(), 20, 20);
+    if (m_reveresed) {
+        QTransform mirror(-1, 0, 0, 0, 1, 0, 0, 0, 1);
+        painter.setTransform(mirror);
+        painter.translate(-width(), 0);
+    }
 
-	if(m_reveresed) //transforming if reversed;
-	{
-		QTransform mirror(-1, 0, 0, 0, 1, 0, 0, 0, 1);
-		painter.setTransform(mirror);
-		painter.translate(-width(), 0);
-	}
+    painter.fillPath(path, Theme::sectionBackground);
 
-	painter.fillPath(path, Theme::sectionBackground);
+    QPen pen(Theme::border);
+    pen.setCosmetic(true);
+    pen.setWidth(2);
+    painter.setPen(pen);
+    painter.drawPath(path);
 
-	QPen pen(Theme::border);
-	pen.setCosmetic(true);
-	pen.setWidth(2);
-	painter.setPen(pen);
+    if (m_reveresed) {
+        painter.resetTransform();
+    }
 
-	painter.drawPath(path);
+    QColor textColor = animatedColor(Theme::fontTurquoise, Theme::fontTurquoiseClicked);
+    painter.setPen(QPen(textColor));
 
-	if (m_reveresed)
-	{
-		painter.resetTransform();
-	}
+    paintInfo(&painter);
 
-	QColor textColor = hover && !clicked ?
-		QColor(Theme::fontTurquoiseClicked)
-		:
-		QColor(Theme::fontTurquoise);
-
-	painter.setPen(QPen(textColor));
-
-	paintInfo(&painter);
-
-	painter.end();
+    painter.end();
 }
 
 bool TileButton::eventFilter(QObject*, QEvent* e)
 {
     if (e->type() == QEvent::Enter) {
-		hover = true;
-		QApplication::setOverrideCursor(QCursor(Qt::PointingHandCursor));
-		update();
-	}
+        hover = true;
+        QApplication::setOverrideCursor(QCursor(Qt::PointingHandCursor));
+
+        if (m_hoverAnimation) {
+            m_hoverAnimation->stop();
+            m_hoverAnimation->setStartValue(m_hoverProgress);
+            m_hoverAnimation->setEndValue(1.0);
+            m_hoverAnimation->start();
+        }
+        else {
+            m_hoverProgress = 1.0;
+            update();
+        }
+    }
 
     if (e->type() == QEvent::Leave) {
-		QApplication::restoreOverrideCursor();
-		hover = false;
-		update();
-	}
+        QApplication::restoreOverrideCursor();
+        hover = false;
 
-	if (e->type() == QEvent::MouseButtonPress)
-	{
-        if(static_cast<QMouseEvent*>(e)->button() == Qt::LeftButton)
-        {
+        if (m_hoverAnimation) {
+            m_hoverAnimation->stop();
+            m_hoverAnimation->setStartValue(m_hoverProgress);
+            m_hoverAnimation->setEndValue(0.0);
+            m_hoverAnimation->start();
+        }
+        else {
+            m_hoverProgress = 0.0;
+            update();
+        }
+    }
+
+    if (e->type() == QEvent::MouseButtonPress) {
+        auto me = static_cast<QMouseEvent*>(e);
+        if (me->button() == Qt::LeftButton) {
             clicked = true;
             update();
         }
-	}
+    }
 
-	if (e->type() == QEvent::MouseButtonRelease)
-    {
-        auto mouseEvent = static_cast<QMouseEvent*>(e);
+    if (e->type() == QEvent::MouseButtonRelease) {
+        auto me = static_cast<QMouseEvent*>(e);
 
-        if(mouseEvent->button() == Qt::RightButton)
-        {
+        if (me->button() == Qt::RightButton) {
             QApplication::restoreOverrideCursor();
-            emit customContextMenuRequested(mapToGlobal(mouseEvent->pos()));
+            emit customContextMenuRequested(mapToGlobal(me->pos()));
         }
-        else
-        {
+        else {
             clicked = false;
             update();
         }
-	}
+    }
 
-	return false;
+    return false;
 }
 
 QString TileButton::elide(const QString& text, int length)
 {
-	if (text.length() < length)  return text;
-	
-	return text.chopped(text.length() - length) + "...";
-}
+    if (text.length() < length)
+        return text;
 
+    return text.chopped(text.length() - length) + "...";
+}
 
 PatientTile::PatientTile(QWidget* parent) : TileButton(parent)
 {
@@ -165,8 +204,8 @@ void PatientTile::paintInfo(QPainter* painter)
 	painter->drawText(width()/2 + horizontalAdvance(tr("Address: ")), rowYPos[1], address);
 	painter->drawText(width() / 2 + horizontalAdvance(tr("Age: ")), rowYPos[2], age);
 	
-	painter->setFont(header);
-	painter->setPen(hover && !clicked ? QPen(Theme::fontRedClicked) : QPen(QColor(Theme::fontRed)));
+    painter->setFont(header);
+    painter->setPen(QPen(animatedColor(Theme::fontRed, Theme::fontRedClicked)));
 
 	painter->drawText(20, 27, name);
 

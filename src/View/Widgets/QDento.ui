@@ -401,7 +401,7 @@
           </widget>
          </item>
          <item>
-          <widget class="UserButton" name="userButton">
+          <widget class="BigPushButton" name="userButton">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -416,12 +416,6 @@
            </property>
            <property name="text">
             <string/>
-           </property>
-           <property name="popupMode">
-            <enum>QToolButton::ToolButtonPopupMode::DelayedPopup</enum>
-           </property>
-           <property name="toolButtonStyle">
-            <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
            </property>
           </widget>
          </item>
@@ -491,9 +485,9 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>UserButton</class>
-   <extends>QToolButton</extends>
-   <header>View/uiComponents/UserButton.h</header>
+   <class>BigPushButton</class>
+   <extends>QPushButton</extends>
+   <header>View/uiComponents/BigPushButton.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

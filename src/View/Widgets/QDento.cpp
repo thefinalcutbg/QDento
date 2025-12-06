@@ -117,15 +117,13 @@ QDento::QDento(QWidget* parent)
     connect(ui.settingsButton, &QPushButton::clicked, [&] { MainPresenter::get().settingsPressed();});
     connect(ui.invoiceButton, &QPushButton::clicked, [&] { MainPresenter::get().newInvoicePressed(); });
     connect(ui.aboutButton, &QPushButton::clicked, this, [&] { AboutDialog d; d.exec(); });
-   
+	connect(ui.userButton, &QPushButton::clicked, [&] { ui.userButton->showMenu(); });
     connect(exitAction, &QAction::triggered, [&] { MainPresenter::get().logOut(); });
 
     connect(ui.notifButton, &QPushButton::clicked, this, [&]{ MainPresenter::get().notificationPressed();});
 
     ui.userButton->setMenu(userMenu);
-    ui.userButton->setPopupMode(QToolButton::InstantPopup);
     ui.userButton->setIconSize(QSize(25, 25));
-    ui.userButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
 
     ui.userButton->setIcon(QIcon{":/icons/icon_user.png"});
 
@@ -144,7 +142,7 @@ TabView* QDento::tabView()
 
 void QDento::setUserLabel(const std::string& doctorName, const std::string& practiceName)
 {
-    ui.userButton->setText(QString::fromStdString("  " + doctorName));
+    ui.userButton->setText(QString::fromStdString(doctorName));
 
     QString title = "QDento v";
     title += Version::current().toString().c_str();

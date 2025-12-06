@@ -428,9 +428,6 @@
     <ClCompile Include="src\View\uiComponents\ToothButton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\View\uiComponents\UserButton.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\View\Widgets\AboutDialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -799,9 +796,6 @@
     <ClInclude Include="src\View\Graphics\CalendarViewData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\View\Graphics\ControlPanelPolygon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\View\Graphics\CPTooth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -818,9 +812,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\View\Graphics\PerioScene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\View\Graphics\SelectionBox.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\View\Graphics\SpriteRect.h">
@@ -1089,9 +1080,6 @@
     <QtMoc Include="src\View\uiComponents\ToothButton.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="src\View\uiComponents\UserButton.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="src\View\Widgets\AboutDialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -1183,6 +1171,12 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\View\Widgets\MultilineDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\View\Graphics\ControlPanelPolygon.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\View\Graphics\SelectionBox.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

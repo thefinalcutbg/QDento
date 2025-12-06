@@ -9,13 +9,14 @@
 
 #include "Model/Patient.h"
 
+class QVariantAnimation;
+
 class TileButton : public QAbstractButton
 {
     void paintEvent(QPaintEvent* e) override;
     bool eventFilter(QObject* obj, QEvent* e) override;
-    
-protected:
 
+protected:
     bool hover{ false };
     bool clicked{ false };
     bool m_reveresed{ false };
@@ -23,13 +24,17 @@ protected:
     QFont info;
     QFont infoLabel;
 
+    qreal m_hoverProgress{ 0.0 };
+    QVariantAnimation* m_hoverAnimation{ nullptr };
+
     QString elide(const QString& text, int length);
     virtual void paintInfo(QPainter* painter) = 0;
+
+    QColor animatedColor(const QColor& normal, const QColor& hover) const;
 
 public:
     TileButton(QWidget* parent = 0);
     void reverse() { m_reveresed = !m_reveresed; update(); };
-
 };
 
 #include "View/uiComponents/IconButton.h"

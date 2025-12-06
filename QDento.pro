@@ -225,8 +225,7 @@ HEADERS += \
     src/View/uiComponents/TextBrowser.h \
     src/View/uiComponents/TextEdit.h \
     src/View/uiComponents/TileButton.h \
-    src/View/uiComponents/ToothButton.h \
-    src/View/uiComponents/UserButton.h
+    src/View/uiComponents/ToothButton.h
 
 SOURCES += \
     include/json/jsoncpp.cpp \
@@ -407,7 +406,6 @@ SOURCES += \
     src/View/uiComponents/TextEdit.cpp \
     src/View/uiComponents/TileButton.cpp \
     src/View/uiComponents/ToothButton.cpp \
-    src/View/uiComponents/UserButton.cpp \
     src/main.cpp
 
 FORMS += \
