@@ -11,7 +11,7 @@ Simple and easy to use dental management software based on the bulgarian open-so
 * [License](#license)
 
 ## General Information
-This software is based on DinoDent - a software I originally built for Bulgarian dental practices. Since [DinoDent](https://github.com/thefinalcutbg/DinoDent/) is tightly connected with the Bulgarian healthcare system, I decided to create a clean international version. It's main purpose is to serve as a basis for development of custom software solutions for dentistry in other countries, but even in its current shape it should be totally usable.
+This software is based on DinoDent - a software I originally built for Bulgarian dental practices. Since [DinoDent](https://github.com/thefinalcutbg/DinoDent/) is tightly connected with the Bulgarian healthcare system, I decided to create a clean international version. Its main purpose is to serve as a basis for development of custom software solutions for dentistry in other countries, but even in its current shape it should be totally usable.
 
 ## Frameworks and Libraries Used
 - [Qt6 Framework](https://www.qt.io/) (6.8 or higher)
