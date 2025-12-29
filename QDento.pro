@@ -18,6 +18,9 @@ ICON = $$PWD/installer/macos/icon.icns
 RESOURCES += \
     resources/Resource.qrc
 
+TRANSLATIONS +=
+    translations/Translation_fr_FR.ts
+    translations/Translation_bg_BG.ts
 
 HEADERS += \
     include/json/json-forwards.h \
