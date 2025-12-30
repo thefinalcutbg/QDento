@@ -152,7 +152,7 @@ QString Theme::getFancyStylesheet()
 QString Theme::getPopupMenuStylesheet()
 {
     return
-    "QMenu{background-color:white; border-radius:10px; padding:8px 6px;}"
+//    "QMenu{background-color:white; border-radius:10px; padding:8px 6px;}"
     "QMenu::icon{ padding-left:6px; padding-right:8px; }"
     "QMenu::item{ padding:6px 28px 6px 6px; margin:2px 0px; border-radius:6px; }"
     "QMenu::item:selected{ background-color:" + colorToString(Theme::buttonFrame)+ "; color:black; }"
