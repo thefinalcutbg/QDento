@@ -253,30 +253,31 @@ Tooth::IncompatibleCodes Tooth::incompatInit()
 		result[Healthy].push_back(static_cast<Status>(i));
 	}
 
-	result[Temporary] = { Post, Implant };
-	result[Restoration] = { Healthy, Root, Implant, Missing, Impacted, Denture };
-	result[DefectiveRestoration] = { Healthy, Root, Implant, Missing, Impacted, Denture };
-	result[NonCariesLesion] = { Healthy, Root, Implant, Missing, Impacted, Denture };
-	result[Caries] = { Healthy, Root, Implant, Missing, Impacted, Denture };
-	result[NonCariesLesion] = { Healthy, Root, Implant, Missing, Impacted, Denture };
-	result[Necrosis] = { Healthy, Pulpitis, Missing, Impacted, RootCanal, Post, Impacted, Denture };
-	result[Pulpitis] = { Healthy, ApicalLesion, Necrosis, Missing, Impacted, RootCanal, Post, Impacted, Denture };
-	result[ApicalLesion] = { Healthy, Pulpitis, Missing, Impacted, Implant, Denture };
-	result[Missing] = { Healthy, Restoration, DefectiveRestoration, Caries, NonCariesLesion, Implant, Pulpitis, Necrosis, RootCanal, Fracture, Root, ApicalLesion, Periodontitis, Crown, Post, Mobility, Denture, Calculus, Impacted };
-	result[RootCanal] = { Healthy, Pulpitis, Necrosis, Missing, Impacted, Implant, Denture };
-	result[Post] = { Healthy, Temporary, Missing, Implant, Pulpitis, Necrosis, Impacted, Denture };
-	result[Root] = { Healthy, Caries, NonCariesLesion,  Restoration, DefectiveRestoration, Crown, Missing, Implant, Calculus };
-	result[Implant] = { Healthy, ApicalLesion, Temporary, Missing, Restoration, DefectiveRestoration, Caries, NonCariesLesion,  Pulpitis, Necrosis, RootCanal, Root, Post, Mobility, Impacted };
-	result[Fracture] = { Healthy, Missing, Impacted };
-	result[Periodontitis] = { Healthy, Missing, Impacted, Denture };
-	result[Mobility] = { Healthy, Missing, Impacted };
-	result[Crown] = { Healthy, Bridge, Missing, Root, Splint, Impacted, Denture };
-	result[Bridge] = { Healthy, Crown, Splint, Denture };
-	result[Splint] = { Healthy, Crown, Bridge, Denture };
-	result[HasSupernumeral] = { };
-	result[Impacted] = { Healthy, Restoration, DefectiveRestoration, Caries, NonCariesLesion, Missing, Periodontitis, ApicalLesion, Implant, Crown, Post, RootCanal, Mobility, Fracture, Calculus };
-	result[Denture] = { Healthy, Restoration, DefectiveRestoration, Caries, NonCariesLesion, Missing, Crown, Bridge, Splint, Post, Calculus, ApicalLesion, RootCanal, Pulpitis, Necrosis, Periodontitis, Mobility}; //if (!root)	set(false, endo, lesion, pulpitis, periodontitis);
-	result[Calculus] = { Healthy, Root, Missing, Impacted, Denture };
+    result[Temporary] = { Post, Implant };
+    result[Restoration] = { Healthy, Root, Implant, Missing, Impacted, Denture };
+    result[DefectiveRestoration] = { Healthy, Root, Implant, Missing, Impacted, Denture };
+    result[NonCariesLesion] = { Healthy, Root, Implant, Missing, Impacted, Denture };
+    result[Caries] = { Healthy, Root, Implant, Missing, Impacted, Denture };
+    result[NonCariesLesion] = { Healthy, Root, Implant, Missing, Impacted, Denture };
+    result[Necrosis] = { Healthy, Pulpitis, Missing, Impacted, Implant, RootCanal, Post, Impacted, Denture };
+    result[Resorption] = { Healthy, Implant, Missing, Denture };
+    result[Pulpitis] = { Healthy, ApicalLesion, Necrosis, Missing, Impacted, RootCanal, Post, Impacted, Denture, Implant };
+    result[ApicalLesion] = { Healthy, Pulpitis, Missing, Impacted, Implant, Denture };
+    result[Missing] = { Healthy, Restoration, DefectiveRestoration, Caries, NonCariesLesion, Implant, Pulpitis, Necrosis, RootCanal, Resorption, Fracture, Root, ApicalLesion, Periodontitis, Crown, Post, Mobility, Denture, Calculus, Impacted };
+    result[RootCanal] = { Healthy, Pulpitis, Necrosis, Missing, Impacted, Implant, Denture };
+    result[Post] = { Healthy, Temporary, Missing, Implant, Pulpitis, Necrosis, Impacted, Denture };
+    result[Root] = { Healthy, Caries, NonCariesLesion,  Restoration, DefectiveRestoration, Crown, Missing, Implant, Calculus };
+    result[Implant] = { Healthy, ApicalLesion, Temporary, Missing, Restoration, DefectiveRestoration, Caries, NonCariesLesion,  Pulpitis, Necrosis, RootCanal, Resorption, Root, Post, Mobility, Impacted };
+    result[Fracture] = { Healthy, Missing, Impacted };
+    result[Periodontitis] = { Healthy, Missing, Impacted, Denture };
+    result[Mobility] = { Healthy, Missing, Impacted, Denture };
+    result[Crown] = { Healthy, Bridge, Missing, Root, Splint, Impacted, Denture };
+    result[Bridge] = { Healthy, Crown, Splint, Denture };
+    result[Splint] = { Healthy, Crown, Bridge, Denture };
+    result[HasSupernumeral] = { };
+    result[Impacted] = { Healthy, Restoration, DefectiveRestoration, Caries, NonCariesLesion, Missing, Periodontitis, ApicalLesion, Implant, Crown, Post, RootCanal, Mobility, Fracture, Calculus };
+    result[Denture] = { Healthy, Restoration, DefectiveRestoration, Caries, NonCariesLesion, Missing, Crown, Bridge, Splint, Post, Calculus, ApicalLesion, RootCanal, Pulpitis, Necrosis, Resorption, Periodontitis, Mobility}; //if (!root)	set(false, endo, lesion, pulpitis, periodontitis);
+    result[Calculus] = { Healthy, Root, Missing, Impacted, Denture };
 		return result;
 
 }
