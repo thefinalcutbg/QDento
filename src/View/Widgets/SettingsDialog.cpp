@@ -103,6 +103,7 @@ SettingsDialog::SettingsDialog(QDialog* parent)
 	connect(ui.removeTsButton, &QPushButton::clicked, [&] {
 		GlobalSettings::removeTranslationPath();
 		ui.tsEdit->clear();
+        ModalDialogBuilder::showMessage(QObject::tr("Changes will take effect after restart").toStdString());
 	});
 
 	connect(ui.addDiagnosisButton, &QPushButton::clicked, [&] {
