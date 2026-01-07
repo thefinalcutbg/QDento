@@ -30,7 +30,7 @@ ToothPaintHint::ToothPaintHint(const Tooth& tooth, const std::string& notes)
 {
     idx = tooth.index();
     temp = tooth[Temporary];
-    num = ToothUtils::getNomenclature(tooth.toothIndex());
+    num = ToothUtils::getNomenclature(idx, temp);
 
     //the tooth hint:
     if (tooth.noData()) {
@@ -104,6 +104,17 @@ ToothPaintHint::ToothPaintHint(const Tooth& tooth, const std::string& notes)
             surfaces[i].outline = SurfaceColor::red;
         }
         else if (tooth.hasStatus(Dental::DefectiveRestoration, i)) {
+            surfaces[i].stripes = SurfaceColor::red;
+        }
+
+        if (tooth.hasStatus(Dental::NonCariesLesion, i) && tooth.hasStatus(Caries, i))
+        {
+            surfaces[i].color = SurfaceColor::red;
+            surfaces[i].outline = SurfaceColor::orange;
+        }
+
+        if (tooth.hasStatus(Dental::DefectiveRestoration, i) && tooth.hasStatus(Caries, i)){
+            surfaces[i].outline = SurfaceColor::red;
             surfaces[i].stripes = SurfaceColor::red;
         }
     }
