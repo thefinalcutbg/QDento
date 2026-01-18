@@ -7,7 +7,7 @@ ProcedureElementDialog::ProcedureElementDialog(const std::set<std::string>& exis
     QDialog(nullptr)
 {
     ui.setupUi(this);
-
+	setWindowTitle(e ? tr("Edit Procedure") : tr("Add Procedure"));
     std::array<QString, (int)Procedure::Type::MaxCount> typeNames;
     typeNames[(int)Procedure::Type::General] = tr("General");
     typeNames[(int)Procedure::Type::ToothNonSpecific] = tr("Tooth Non-Specific");

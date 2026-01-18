@@ -11,7 +11,7 @@
 
 class DsnMenu;
 class VisitPresenter;
-class CheckModel;
+struct CheckModel;
 
 class ContextMenu : public QMenu
 {
