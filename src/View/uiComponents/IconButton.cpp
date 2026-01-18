@@ -24,7 +24,7 @@ IconButton::IconButton(QWidget* parent)
 #endif
 
     setCursor(QCursor(Qt::PointingHandCursor));
-
+    Theme::applyLightShadow(this);
     m_hoverAnimation = new QVariantAnimation(this);
     m_hoverAnimation->setDuration(150); // ms
     m_hoverAnimation->setEasingCurve(QEasingCurve::OutCubic);

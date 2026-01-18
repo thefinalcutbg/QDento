@@ -17,7 +17,7 @@ ShortcutTile::ShortcutTile(QWidget* parent) : QPushButton(parent)
     auto font = this->font();
     font.setBold(true);
     setFont(font);
-
+    Theme::applyLightShadow(this);
 	setCursor(Qt::PointingHandCursor);
 
     hoverAnimation = new QVariantAnimation(this);

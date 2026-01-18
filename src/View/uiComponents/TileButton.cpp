@@ -56,7 +56,8 @@ void TileButton::paintEvent(QPaintEvent*)
     QPainter painter(this);
     painter.setRenderHint(QPainter::SmoothPixmapTransform);
 
-    auto path = Theme::getHalfCurvedPath(width(), height());
+    auto path = QPainterPath();
+    path.addRoundedRect(rect(), Theme::radius / 2, Theme::radius / 2);
 
     if (m_reveresed) {
         QTransform mirror(-1, 0, 0, 0, 1, 0, 0, 0, 1);

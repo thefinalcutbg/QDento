@@ -18,7 +18,7 @@ CalendarView::CalendarView(QWidget* parent)
     calendarWidget->setWindowFlag(Qt::WindowType::Popup);
 
     setStyleSheet(Theme::getFancyStylesheet());
-
+    ui.calendarButton->setGraphicsEffect(nullptr);
     ui.weekFrame->setFrameShape(QFrame::NoFrame);
 
     auto arrow = QPixmap(":/icons/icon_downArrow.png");
