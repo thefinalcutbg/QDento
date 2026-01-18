@@ -63,6 +63,7 @@ QDento::QDento(QWidget* parent)
     GlobalWidgets::statusBar = statusBar();
 
     statusBar()->setStyleSheet("font-weight: bold; color:" + Theme::colorToString(Theme::fontTurquoiseClicked));
+    statusBar()->setHidden(true);
 
     QAction* settingsAction = new QAction(tr("Settings"));
     settingsAction->setIcon(QIcon(":/icons/icon_settings.png"));

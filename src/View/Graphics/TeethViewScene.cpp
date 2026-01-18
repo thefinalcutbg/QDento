@@ -6,6 +6,7 @@
 #include <QGraphicsSceneContextMenuEvent>
 #include <QGraphicsSceneMouseEvent>
 #include <QKeyEvent>
+#include <QGraphicsView>
 
 #include "Presenter/VisitPresenter.h"
 #include "View/Graphics/ToothPainter.h"
@@ -71,8 +72,6 @@ TeethViewScene::TeethViewScene(QObject *parent)
 
     connect(this, &QGraphicsScene::selectionChanged, [=, this]
     {
-        if (!presenter) { return; }
-
         std::vector<int> selectedIndexes;
         selectedIndexes.reserve(32);
 
@@ -84,11 +83,31 @@ TeethViewScene::TeethViewScene(QObject *parent)
 
         std::sort(selectedIndexes.begin(), selectedIndexes.end());
 
-        presenter->setSelectedTeeth(selectedIndexes);
-        contextMenu->setSelection(selectedIndexes.size() == 1);
+        if(presenter){
+            presenter->setSelectedTeeth(selectedIndexes);
+        }
 
+        if(contextMenu){
+            contextMenu->setSelection(selectedIndexes.size() == 1);
+        }
+            
     });
 
+    selectionBox[0]->setNeighbours(nullptr, selectionBox[1]);
+
+    for(int i = 1; i < 15; i++){
+        selectionBox[i]->setNeighbours(selectionBox[i-1], selectionBox[i+1]);
+    }
+
+    selectionBox[15]->setNeighbours(selectionBox[14], nullptr);
+
+    selectionBox[16]->setNeighbours(selectionBox[17], nullptr);
+
+    for(int i = 17; i < 31; i++){
+        selectionBox[i]->setNeighbours(selectionBox[i+1], selectionBox[i-1]);
+    }
+
+    selectionBox[31]->setNeighbours(nullptr, selectionBox[30]);
 }
 
 void TeethViewScene::setContextMenu(ContextMenu* contextMenu)
@@ -99,14 +118,20 @@ void TeethViewScene::setContextMenu(ContextMenu* contextMenu)
 void TeethViewScene::setPresenter(VisitPresenter* presenter)
 {
     this->presenter = presenter;
+}
 
-    /* //improves ram usage, but slows down the whole program
-    if(!presenter)
-        for (auto tooth : toothGraphic)
-        {
-            tooth->setToothPixmap(QPixmap());
-        }
-    */
+std::vector<int> TeethViewScene::getSelectedTeethIdx()
+{
+    std::vector<int> result;
+
+    result.reserve(32);
+
+    for(auto& item : items()){
+        if(!item->isSelected()) continue;
+        result.push_back(static_cast<SelectionBox*>(item)->getIndex());
+    }
+
+    return result;
 }
 
 
@@ -138,7 +163,7 @@ void TeethViewScene::contextMenuEvent(QGraphicsSceneContextMenuEvent* event)
 
 void TeethViewScene::mousePressEvent(QGraphicsSceneMouseEvent* event)
 {
-    if (!presenter) {
+    if (views().at(0)->dragMode() != QGraphicsView::RubberBandDrag) {
         QGraphicsScene::mousePressEvent(event);
         return;
     }
@@ -178,7 +203,7 @@ void TeethViewScene::mouseDoubleClickEvent(QGraphicsSceneMouseEvent* Event)
             presenter->addProcedure();
         }
 
-        emit toothDoubleClicked(t->getIndex());
+		emit toothDoubleClicked(t->getIndex());
     }
 }
 
@@ -210,6 +235,10 @@ int TeethViewScene::keyCodeMapper(QKeyEvent *e)
         {1068, Qt::Key_X},
         {1061, Qt::Key_H},
         {1046, Qt::Key_V},
+        {1066, Qt::Key_Y},
+        {1053, Qt::Key_N},
+        {1047, Qt::Key_Z},
+        {1081, Qt::Key_J},
         {1040, Qt::Key_A}
     };
 
@@ -235,7 +264,6 @@ int TeethViewScene::keyCodeMapper(QKeyEvent *e)
 
 void TeethViewScene::keyPressEvent(QKeyEvent* event)
 {
-    if (!presenter) return;
 
     int lastSelected = 0;
     int firstSelected = 0;
@@ -255,7 +283,7 @@ void TeethViewScene::keyPressEvent(QKeyEvent* event)
 
     switch (event->key())
     {
-        case Qt::Key_Return: presenter->addProcedure(); break;
+        case Qt::Key_Return: emit returnPressed(); if(presenter) presenter->addProcedure(); break;
         case Qt::Key_Right:
             if (event->modifiers() & Qt::ShiftModifier)
             {
@@ -303,15 +331,16 @@ void TeethViewScene::keyPressEvent(QKeyEvent* event)
             break;
         }
 
-        case Qt::Key_Delete: presenter->setOther(OtherInputs::removeAll);; break;
+        case Qt::Key_Delete: if(presenter) presenter->setOther(OtherInputs::removeAll);; break;
     }
+
+    if (!presenter) return;
 
     switch (keyCodeMapper(event)) //shortcut keys for input diagnosis
     {
       case Qt::Key_T :presenter->setToothStatus(StatusType::General, Temporary); break;
       case Qt::Key_O :presenter->setToothStatus(StatusType::General, Restoration); break;
-      case Qt::Key_Y :presenter->setToothStatus(StatusType::General, DefectiveRestoration); break;
-      case Qt::Key_U :presenter->setToothStatus(StatusType::General, NonCariesLesion); break;
+
       case Qt::Key_C :presenter->setToothStatus(StatusType::General, Caries); break;
       case Qt::Key_R :presenter->setToothStatus(StatusType::General, Root); break;
       case Qt::Key_E :presenter->setToothStatus(StatusType::General, Missing); break;
@@ -321,7 +350,10 @@ void TeethViewScene::keyPressEvent(QKeyEvent* event)
       case Qt::Key_F :presenter->setToothStatus(StatusType::General, Fracture); break;
       case Qt::Key_I :presenter->setToothStatus(StatusType::General, Implant); break;
       case Qt::Key_L :presenter->setToothStatus(StatusType::General, Periodontitis); break;
-      case Qt::Key_N :presenter->setToothStatus(StatusType::General, Necrosis); break;
+      case Qt::Key_Y:presenter->setToothStatus(StatusType::General, DefectiveRestoration); break;
+      case Qt::Key_U:presenter->setToothStatus(StatusType::General, NonCariesLesion); break;
+      case Qt::Key_N:presenter->setToothStatus(StatusType::General, Necrosis); break;
+      case Qt::Key_Z: presenter->setToothStatus(StatusType::General, Resorption); break;
       case Qt::Key_0 :presenter->setToothStatus(StatusType::General, Mobility); break;
       case Qt::Key_1 :presenter->setToothStatus(StatusType::Mobility, 0); break;
       case Qt::Key_2 :presenter->setToothStatus(StatusType::Mobility, 1); break;
@@ -332,7 +364,6 @@ void TeethViewScene::keyPressEvent(QKeyEvent* event)
       case Qt::Key_M: presenter->setToothStatus(StatusType::General, Impacted); break;
       case Qt::Key_S: presenter->setToothStatus(StatusType::General, Splint); break;
       case Qt::Key_J: presenter->setToothStatus(StatusType::General, HasSupernumeral); break;
-      case Qt::Key_Z: presenter->setToothStatus(StatusType::General, Resorption); break;
       case Qt::Key_X: presenter->setToothStatus(StatusType::General, Denture); break;
       case Qt::Key_H: presenter->setToothStatus(StatusType::General, Healthy); break;
       case Qt::Key_V: presenter->setToothStatus(StatusType::General, Calculus); break;
