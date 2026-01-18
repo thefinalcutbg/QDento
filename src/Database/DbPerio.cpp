@@ -4,7 +4,7 @@
 #include "Database.h"
 #include "DbProcedure.h"
 #include "Model/User.h"
-
+#include "View/ModalDialogBuilder.h"
 ToothContainer DbPerio::getStatus(long long patientRowId, const Date& date)
 {
 
@@ -12,7 +12,7 @@ ToothContainer DbPerio::getStatus(long long patientRowId, const Date& date)
     long long amblistId{0};
     std::string LPK;
 
-    std::string query = "SELECT dental_visit.status, dental_visit.rowid, dental_visit.LPK FROM dental_visit WHERE dental_visit.patient_rowid = ? AND strftime('%Y %m %d',dental_visit.date) <= ? ORDER BY dental_visit.date DESC LIMIT 1";
+    std::string query = "SELECT dental_visit.status, dental_visit.rowid FROM dental_visit WHERE dental_visit.patient_rowid = ? AND strftime('%Y %m %d',dental_visit.date) <= ? ORDER BY dental_visit.date DESC LIMIT 1";
 
     Db db(query);
 
@@ -30,7 +30,7 @@ ToothContainer DbPerio::getStatus(long long patientRowId, const Date& date)
     {
         return ToothContainer();
     }
-    
+
     ToothContainer toothStatus;
 
     Parser::parse(jsonStatus, toothStatus);
