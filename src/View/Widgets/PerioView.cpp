@@ -619,7 +619,7 @@ void PerioView::initializeTeethScenes()
 	perioChart[maxPalatal]->setTransform(QTransform::fromScale(-1, 1));
 	perioChart[maxPalatal]->setRotation(180);
 	perioChart[maxPalatal]->setPos(0, 340);
-
+	perioScene[0]->setSceneRect(0, 0, 1121, 332);
 	ui.maxilla->ui.graphicsView->setScene(perioScene[0]);
 
 	//scene mandibularis:
@@ -637,7 +637,7 @@ void PerioView::initializeTeethScenes()
 	perioChart[mandLing]->setRotation(180);
 	perioChart[mandLing]->setTransform(QTransform::fromScale(1, -1));
 	perioChart[mandLing]->setPos(perioChart[mandLing]->boundingRect().width(), -5);
-
+	perioScene[1]->setSceneRect(0, 0, 1121, 332);
 	ui.mandibula->ui.graphicsView->setScene(perioScene[1]);
 
 }

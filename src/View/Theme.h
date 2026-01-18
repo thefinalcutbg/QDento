@@ -8,11 +8,10 @@ class QStyle;
 
 namespace Theme
 {
-	enum class Orientation {Left, Center, Right};
+	enum class Orientation { Left, Center, Right };
 
 	constexpr int radius{ 20 };
 	const QColor mainBackgroundColor(170, 215, 220);
-	//const QColor mainBackgroundColor(Qt::white);
 	const QColor background(246, 245, 250);
 	const QColor sectionBackground(Qt::white);
 	const QColor border(225, 225, 225);
@@ -30,8 +29,8 @@ namespace Theme
 	QString colorToString(const QColor& color);
 	QString getFancyStylesheet();
 	QString getPopupMenuStylesheet();
-    QStyle* fusionStyle(); //for custom buttons on macos to slove the margin problem. Fix leak!
-    void cleanUpFusionStyle();
+	QStyle* fusionStyle();
+	void cleanUpFusionStyle();
 	void applyShadow(QWidget* w,
 		int blur = 24,
 		QPoint offset = { 0, 2 },
