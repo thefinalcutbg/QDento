@@ -5,6 +5,7 @@ Simple and easy to use dental management software based on the bulgarian open-so
 ## Table of Contents
 * [General Info](#general-information)
 * [Frameworks and Libraries Used](#frameworks-and-libraries-used)
+* [Screenshots](#screenshots)
 * [Features](#features)
 * [Setup](#setup)
 * [Contact](#contact)
@@ -17,6 +18,14 @@ This software is based on DinoDent - a software I originally built for Bulgarian
 - [Qt6 Framework](https://www.qt.io/) (6.8 or higher)
 - [SQLite3](https://github.com/sqlite/sqlite)
 - [JsonCpp](https://github.com/open-source-parsers/jsoncpp)
+
+## Screenshots
+
+![Alt text](/screenshots/scr1.png?raw=true)
+
+![Alt text](/screenshots/scr2.png?raw=true)
+
+![Alt text](/screenshots/scr3.png?raw=true)
 
 ## Features
 - Dental status and procedure procedure input
