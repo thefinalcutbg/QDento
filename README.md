@@ -21,11 +21,11 @@ This software is based on DinoDent - a software I originally built for Bulgarian
 
 ## Screenshots
 
+![Alt text](/screenshots/scr0.png?raw=true)
+
 ![Alt text](/screenshots/scr1.png?raw=true)
 
 ![Alt text](/screenshots/scr2.png?raw=true)
-
-![Alt text](/screenshots/scr3.png?raw=true)
 
 ## Features
 - Dental status and procedure procedure input
