@@ -14,7 +14,7 @@ TileButton::TileButton(QWidget* parent) : QAbstractButton(parent)
     header.setBold(true);
     header.setPointSizeF(info.pointSizeF() + 6);
     infoLabel.setBold(true);
-
+    Theme::applyShadow(this);
     installEventFilter(this);
     setCursor(Qt::PointingHandCursor);
     m_hoverAnimation = new QVariantAnimation(this);
