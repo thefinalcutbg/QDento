@@ -179,7 +179,7 @@ void TableView::paintEvent(QPaintEvent* e)
     painter.translate(0, h);
     painter.rotate(-90);
 
-    QPen borderPen(hasFocus() ? Theme::mainBackgroundColor : Theme::border);
+    QPen borderPen(Theme::mainBackgroundColor);
     borderPen.setCosmetic(true);
     borderPen.setWidth(2);
 
@@ -188,7 +188,7 @@ void TableView::paintEvent(QPaintEvent* e)
 
     painter.resetTransform();
 
-    QPen pen(hasFocus() ? Theme::fontTurquoise : Theme::mainBackgroundColor);
+    QPen pen(Theme::fontTurquoise);
     pen.setCosmetic(true);
     pen.setWidth(1);
     painter.setPen(pen);
