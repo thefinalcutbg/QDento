@@ -65,6 +65,8 @@ bool VisitPresenter::isValid()
 
         return true;
     }
+
+    return true;
 }
 
 TabName VisitPresenter::getTabName()

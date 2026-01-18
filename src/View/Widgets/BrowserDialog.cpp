@@ -227,45 +227,45 @@ void BrowserDialog::contextMenuRequested(const QPoint& p)
 
 	QAction* action;
 
-	action = (new QAction("Open", main_menu));
+    action = (new QAction(QObject::tr("Open"), main_menu));
     connect(action, &QAction::triggered, this, [=, this] { presenter.openCurrentSelection(); });
 	action->setIcon(QIcon(":/icons/icon_open.png"));
 	main_menu->addAction(action);
 
 
 	if (ui.tabBar->currentIndex() != 4) {
-		action = (new QAction("New Dental Visit", main_menu));
+        action = (new QAction(QObject::tr("New Dental Visit"), main_menu));
         connect(action, &QAction::triggered, this, [=, this] { presenter.openNewDocument(TabType::DentalVisit); });
 		action->setIcon(QIcon(":/icons/icon_sheet.png"));
 		main_menu->addAction(action);
 
-		action = (new QAction("New Periodontal Measurment", main_menu));
+        action = (new QAction(QObject::tr("New Periodontal Measurment"), main_menu));
         connect(action, &QAction::triggered, this, [=, this] { presenter.openNewDocument(TabType::PerioStatus); });
 		action->setIcon(QIcon(":/icons/icon_periosheet.png"));
 		main_menu->addAction(action);
 
-		action = (new QAction("New Financial Document", main_menu));
+        action = (new QAction(QObject::tr("New Financial Document"), main_menu));
         connect(action, &QAction::triggered, this, [=, this] { presenter.openNewDocument(TabType::Financial); });
 		action->setIcon(QIcon(":/icons/icon_invoice.png"));
 		main_menu->addAction(action);
 
-		action = (new QAction("Schedule An Appointment", main_menu));
+        action = (new QAction(QObject::tr("Schedule An Appointment"), main_menu));
 		connect(action, &QAction::triggered, this, [=, this] { presenter.openNewDocument(TabType::Calendar); });
 		action->setIcon(QIcon(":/icons/icon_calendar.png"));
 		main_menu->addAction(action);
 
-		action = (new QAction("Patient History", main_menu));
+        action = (new QAction(QObject::tr("Patient History"), main_menu));
 		connect(action, &QAction::triggered, this, [=, this] { presenter.openNewDocument(TabType::PatientSummary); });
 		action->setIcon(QIcon(":/icons/icon_history.png"));
 		main_menu->addAction(action);
 
-		action = (new QAction("Edit Patient Data", main_menu));
+        action = (new QAction(QObject::tr("Edit Patient Data"), main_menu));
 		connect(action, &QAction::triggered, this, [=, this] { presenter.editPatientData(); });
 		action->setIcon(QIcon(":/icons/icon_edit.png"));
 		main_menu->addAction(action);
 	}
 
-	action = (new QAction("Copy Current Text", main_menu));
+    action = (new QAction(QObject::tr("Copy Current Text"), main_menu));
 	action->setIcon(QIcon(":/icons/icon_copy.png"));
     connect(action, &QAction::triggered, this, [=, this] {
 
@@ -287,7 +287,7 @@ void BrowserDialog::contextMenuRequested(const QPoint& p)
 
 void BrowserDialog::setCountLabel()
 {
-	QString text = "Result Count: ";
+    QString text = QObject::tr("Result Count: ");
 	text += QString::number(phoneFilter.rowCount());
 	ui.countLabel->setText(text);
 }
