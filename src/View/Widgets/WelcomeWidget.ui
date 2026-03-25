@@ -71,7 +71,7 @@
       <widget class="QFrame" name="frame">
        <property name="minimumSize">
         <size>
-         <width>511</width>
+         <width>501</width>
          <height>511</height>
         </size>
        </property>
@@ -90,10 +90,10 @@
        <widget class="ShortcutTile" name="ambButton">
         <property name="geometry">
          <rect>
-          <x>10</x>
-          <y>0</y>
-          <width>150</width>
-          <height>150</height>
+          <x>20</x>
+          <y>20</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -104,30 +104,30 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>New Dental Visit</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="invoiceButton">
         <property name="geometry">
          <rect>
-          <x>350</x>
-          <y>0</y>
-          <width>150</width>
-          <height>150</height>
+          <x>260</x>
+          <y>20</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -138,30 +138,30 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>New Financial Document</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="calendar">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>170</y>
-          <width>150</width>
-          <height>150</height>
+          <x>20</x>
+          <y>190</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -172,30 +172,30 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>Appointments</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="perioButton">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>0</y>
-          <width>150</width>
-          <height>150</height>
+          <x>140</x>
+          <y>20</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -206,14 +206,14 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
@@ -223,16 +223,16 @@
          <string>New Periodontal measurment</string>
         </property>
         <property name="text">
-         <string>New Periodontal Measurment</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="browser">
         <property name="geometry">
          <rect>
-          <x>10</x>
-          <y>170</y>
-          <width>150</width>
-          <height>150</height>
+          <x>380</x>
+          <y>20</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -243,30 +243,30 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>Browse Documents</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="settingsButton">
         <property name="geometry">
          <rect>
-          <x>10</x>
-          <y>340</y>
-          <width>150</width>
-          <height>150</height>
+          <x>260</x>
+          <y>190</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -277,30 +277,30 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>Settings</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="aboutButton">
         <property name="geometry">
          <rect>
-          <x>350</x>
-          <y>340</y>
-          <width>150</width>
-          <height>150</height>
+          <x>380</x>
+          <y>190</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -311,14 +311,14 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
@@ -328,16 +328,16 @@
          <string>About</string>
         </property>
         <property name="text">
-         <string>About</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="donateButton">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>340</y>
-          <width>150</width>
-          <height>150</height>
+          <x>200</x>
+          <y>350</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -348,30 +348,30 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>Make a Donation</string>
+         <string/>
         </property>
        </widget>
        <widget class="ShortcutTile" name="notifButton">
         <property name="geometry">
          <rect>
-          <x>350</x>
-          <y>170</y>
-          <width>150</width>
-          <height>150</height>
+          <x>140</x>
+          <y>190</y>
+          <width>101</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -382,21 +382,237 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>150</width>
-          <height>150</height>
+          <width>101</width>
+          <height>101</height>
          </size>
         </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
         <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>New Dental Visit</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>130</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>New Periodontal Measurment</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>130</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>New Financial Document</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>130</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Browse Documents</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>300</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Appointments</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>300</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
          <string>Reminders</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>300</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Settings</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>460</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Make a Donation</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>300</y>
+          <width>101</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>About</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
         </property>
        </widget>
       </widget>

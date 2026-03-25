@@ -13,12 +13,11 @@
 ShortcutTile::ShortcutTile(QWidget* parent) : QPushButton(parent)
 {
     installEventFilter(this);
-
+    Theme::applyLightShadow(this);
     auto font = this->font();
     font.setBold(true);
     setFont(font);
-    Theme::applyLightShadow(this);
-	setCursor(Qt::PointingHandCursor);
+    setCursor(Qt::PointingHandCursor);
 
     hoverAnimation = new QVariantAnimation(this);
     hoverAnimation->setDuration(150); // ms
@@ -37,17 +36,23 @@ void ShortcutTile::paintEvent(QPaintEvent*)
 {
     QPainter painter(this);
 
-    painter.setRenderHint(QPainter::Antialiasing);
+    // painter.setRenderHint(QPainter::Antialiasing);
     painter.setRenderHint(QPainter::SmoothPixmapTransform);
 
+    QPen pen(Theme::border);
+    pen.setCosmetic(true);
+    pen.setWidth(2);
+    painter.setPen(pen);
+
+    const qreal half = pen.widthF() * 0.5;
+    QRectF r = rect();
+    r.adjust(half, half, -half, -half);
+
     QPainterPath path;
-    path.addRoundedRect(rect(), Theme::radius, Theme::radius);
+    path.addRoundedRect(r, Theme::radius / 2, Theme::radius / 2);
 
     QColor normalBg(Theme::sectionBackground);
     QColor hoverBg(Theme::inactiveTabBG);
-
-    QColor normalText(Theme::fontTurquoiseClicked);
-    QColor hoverText(Theme::fontTurquoise);
 
     auto mixChannel = [](int a, int b, qreal t) -> int {
         return a + qRound((b - a) * t);
@@ -63,37 +68,20 @@ void ShortcutTile::paintEvent(QPaintEvent*)
     background.setBlue(mixChannel(normalBg.blue(), hoverBg.blue(), t));
     background.setAlpha(mixChannel(normalBg.alpha(), hoverBg.alpha(), t));
 
-    QColor textColor;
-    textColor.setRed(mixChannel(normalText.red(), hoverText.red(), t));
-    textColor.setGreen(mixChannel(normalText.green(), hoverText.green(), t));
-    textColor.setBlue(mixChannel(normalText.blue(), hoverText.blue(), t));
-    textColor.setAlpha(mixChannel(normalText.alpha(), hoverText.alpha(), t));
-
     painter.fillPath(path, background);
 
-    QPen pen(Theme::border);
-    pen.setCosmetic(true);
-    pen.setWidth(2);
-    painter.setPen(pen);
+    painter.drawPath(path);
 
-    int iconRectSide = clicked ? 35 : 40;
+    int iconRectSide = clicked ? 30 : 35;//35 : 40;
 
     if (!icon().isNull()) {
         icon().paint(&painter,
             QRect(width() / 2 - iconRectSide / 2,
-                height() / 2 - iconRectSide / 2 - 10,
+                height() / 2 - iconRectSide / 2, //-10
                 iconRectSide,
                 iconRectSide));
     }
 
-    painter.setPen(QPen(textColor));
-    painter.setFont(font());
-
-    QTextOption textOption;
-    textOption.setWrapMode(QTextOption::WordWrap);
-    textOption.setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
-
-    painter.drawText(QRectF(10, 100, width() - 20, 50), text(), textOption);
 }
 
 bool ShortcutTile::eventFilter(QObject* o, QEvent* e)
@@ -104,7 +92,7 @@ bool ShortcutTile::eventFilter(QObject* o, QEvent* e)
 
     if (e->type() == QEvent::Enter) {
         hover = true;
-    
+
         if (hoverAnimation) {
             hoverAnimation->stop();
             hoverAnimation->setStartValue(hoverProgress);

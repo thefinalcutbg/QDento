@@ -17,6 +17,7 @@ WelcomeWidget::WelcomeWidget(QWidget *parent)
 
 
 	setStyleSheet("background-color:" + Theme::colorToString(Theme::background));
+    setStyleSheet("color: " + Theme::colorToString(Theme::fontTurquoise));
 
     ui.ambButton->setIcon(QIcon(":/icons/icon_sheet.png"));
     ui.perioButton->setIcon(QIcon(":/icons/icon_periosheet.png"));
