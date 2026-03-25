@@ -15,9 +15,7 @@ WelcomeWidget::WelcomeWidget(QWidget *parent)
 
     ui.cornerLabel->setPixmap(QPixmap(":/icons/qDento.png"));
 
-
-	setStyleSheet("background-color:" + Theme::colorToString(Theme::background));
-    setStyleSheet("color: " + Theme::colorToString(Theme::fontTurquoise));
+    setStyleSheet("color: " + Theme::colorToString(Theme::fontTurquoise) + "; background-color:" + Theme::colorToString(Theme::background));
 
     ui.ambButton->setIcon(QIcon(":/icons/icon_sheet.png"));
     ui.perioButton->setIcon(QIcon(":/icons/icon_periosheet.png"));
