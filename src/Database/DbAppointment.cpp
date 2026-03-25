@@ -21,7 +21,7 @@ long long DbAppointment::insert(const CalendarEvent& e, long long dentist_rowid)
 
 void DbAppointment::update(const CalendarEvent& e)
 {
-	auto query = "UPDATE appointment SET patient_rowid=?, start=?, end=?, summary=?, description=?";
+	auto query = "UPDATE appointment SET patient_rowid=?, start=?, end=?, summary=?, description=? WHERE rowid=?";
 
 	Db db(query);
 
@@ -30,6 +30,7 @@ void DbAppointment::update(const CalendarEvent& e)
 	db.bind(3, e.end.toString(Qt::ISODate).toStdString());
 	db.bind(4, e.summary);
 	db.bind(5, e.description);
+	db.bind(6, e.rowid);
 
 	db.execute();
 
