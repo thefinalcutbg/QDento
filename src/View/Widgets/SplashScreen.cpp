@@ -17,7 +17,7 @@ void SplashScreen::showMessage(const std::string& message)
 {
     if (s_splash == nullptr) return;
 
-    s_splash->showMessage("   " + QObject::tr(message.c_str()), Qt::AlignLeft | Qt::AlignBottom, Qt::darkGray);
+    s_splash->showMessage(" " + QObject::tr(message.c_str()), Qt::AlignLeft | Qt::AlignBottom, Qt::darkGray);
 }
 
 void SplashScreen::hideAndDestroy()
