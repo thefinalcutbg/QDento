@@ -1,6 +1,8 @@
 #pragma once
 
 #include <QDialog>
+#include <QSortFilterProxyModel>
+
 #include "ui_PatientHistoryDialog.h"
 #include "Model/Dental/Snapshot.h"
 #include "Model/PlainTable.h"
@@ -26,6 +28,7 @@ class PatientHistoryDialog : public QDialog
 	std::vector<PlainTable> details_data;
 	
 	ProcedureTableModel procedure_model;
+	QSortFilterProxyModel procedure_proxy;
 
 public:
 	PatientHistoryDialog(PatientHistoryPresenter& presenter, QWidget *parent = nullptr);

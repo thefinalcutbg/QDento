@@ -18,8 +18,10 @@ BrowserDialog::BrowserDialog()
 
 	ui.preView->horizontalHeader()->setStretchLastSection(true);
 	ui.tableView->horizontalHeader()->setStretchLastSection(false);
+	ui.tableView->setSortingEnabled(true);
 
-	idFilter.setSourceModel(&table_model);
+	procedure_proxy.setSourceModel(&table_model);
+	idFilter.setSourceModel(&procedure_proxy);
 	nameFilter.setSourceModel(&idFilter);
 	phoneFilter.setSourceModel(&nameFilter);
 	ui.tableView->setModel(&phoneFilter);
@@ -176,6 +178,7 @@ void BrowserDialog::setUiState(const BrowserUiState& state)
 void BrowserDialog::setTable(const PlainTable& t, int idColumn, int nameColumn, int phoneColumn)
 {
     table_model.setTableData(t);
+	ui.tableView->horizontalHeader()->setSortIndicator(-1, Qt::AscendingOrder);
 
 	for (int i = 0; i < t.size(); i++) {
 

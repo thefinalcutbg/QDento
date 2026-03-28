@@ -15,6 +15,7 @@ private:
 
 	BrowserPresenter presenter;
 
+	QSortFilterProxyModel procedure_proxy;
 	QSortFilterProxyModel idFilter;
 	NameFilterProxyModel nameFilter;
 	QSortFilterProxyModel phoneFilter;
