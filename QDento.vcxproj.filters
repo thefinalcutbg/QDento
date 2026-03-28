@@ -1310,7 +1310,13 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtTranslation Include="Translation_bg.ts">
+    <QtTranslation Include="translations\Translation_ar.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+    <QtTranslation Include="translations\Translation_bg_BG.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+    <QtTranslation Include="translations\Translation_fr_FR.ts">
       <Filter>Translation Files</Filter>
     </QtTranslation>
   </ItemGroup>

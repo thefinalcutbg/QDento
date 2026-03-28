@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.1" language="ar">
 <context>
     <name>AboutDialogClass</name>
     <message>
         <location filename="../src/View/Widgets/AboutDialog.ui" line="14"/>
         <source>About QDento</source>
-        <translation>À propos de QDento</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/AboutDialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;QDento&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Free open-source dental managment software&lt;br/&gt;GitHub repo: &lt;/span&gt;&lt;a href=&quot;https://github.com/thefinalcutbg/QDento&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Libraries Used:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.qt.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Qt6 Framework&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;SQLite3&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/open-source-parsers/jsoncpp&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;JsonCpp&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Contact me:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;mailto:dinodentbg@gmail.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;hristo.konstantinov89@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -19,87 +19,87 @@
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="14"/>
         <source>BrowserDialog</source>
-        <translation>Dialogue du navigateur</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="61"/>
         <source>Search:</source>
-        <translation>Recherche:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="80"/>
         <source>Identifier</source>
-        <translation>Identifiant</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="99"/>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="133"/>
         <source>Phone</source>
-        <translation>Téléphone</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="144"/>
         <source>From</source>
-        <translation>depuis</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="158"/>
         <source>to</source>
-        <translation>à</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="223"/>
         <source>Documents</source>
-        <translation>Documents</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="228"/>
         <source>Procedures</source>
-        <translation>Procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="252"/>
         <source>Delete</source>
-        <translation>Supprimer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="262"/>
         <source>Open</source>
-        <translation>Ouvrir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.ui" line="318"/>
         <source>Open selected documents</source>
-        <translation>Ouvrir les documents sélectionnés</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="32"/>
         <source>Patients</source>
-        <translation>Patientes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="33"/>
         <source>Dental Visits</source>
-        <translation>Visit Dental</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="34"/>
         <source>Periodontal Measurments</source>
-        <translation>Mesures parodontales</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="35"/>
         <source>Financial Documents</source>
-        <translation>Documents financiers</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="50"/>
         <source>Browse Files</source>
-        <translation>Parcourir les fichiers</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.cpp" line="12"/>
         <source>Add Unit</source>
-        <translation>Ajouter une unité</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -115,42 +115,42 @@
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="20"/>
         <source>BusinessOperationDialog</source>
-        <translation>Dialogue sur les opérations commerciales</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="30"/>
         <source>Unit Code</source>
-        <translation>Code de l&apos;unité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="37"/>
         <source>Description</source>
-        <translation>Description</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="44"/>
         <source>Unit Quality</source>
-        <translation>Qualité de l&apos;unité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="51"/>
         <source>Unit Price</source>
-        <translation>Prix ​​unitaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="120"/>
         <source>$</source>
-        <translation>dz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="177"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/BusinessOperationDialog.ui" line="187"/>
         <source>OK</source>
-        <translation>D&apos;ACCORD</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -158,27 +158,27 @@
     <message>
         <location filename="../src/View/TableModels/BusinessOperationModel.cpp" line="13"/>
         <source>Code</source>
-        <translation>Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/BusinessOperationModel.cpp" line="14"/>
         <source>Description</source>
-        <translation>Description</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/BusinessOperationModel.cpp" line="15"/>
         <source>Quantity</source>
-        <translation>Quantité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/BusinessOperationModel.cpp" line="16"/>
         <source>Unit price</source>
-        <translation>Prix ​​unitaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/BusinessOperationModel.cpp" line="17"/>
         <source>Total</source>
-        <translation>Total</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -186,7 +186,7 @@
     <message>
         <location filename="../src/View/Widgets/ButtonDialog.ui" line="14"/>
         <source>ButtonDialog</source>
-        <translation>BoutonDialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -194,12 +194,12 @@
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.cpp" line="17"/>
         <source>Edit Appointment</source>
-        <translation>Modifier le rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.cpp" line="19"/>
         <source>New Appointment</source>
-        <translation>Nouvelle rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -207,43 +207,43 @@
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="14"/>
         <source>CalendarEventDialog</source>
-        <translation>Boîtededialoguedesévénementsducalendrier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="24"/>
         <source>Patient</source>
-        <translation>Patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="31"/>
         <source>Description</source>
-        <translation>Description</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="96"/>
         <source>Duration:</source>
-        <translation>Duration:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="105"/>
         <source>From:</source>
-        <translation>Depuis:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="118"/>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="135"/>
         <source>HH:mm</source>
-        <translation>HH:mm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="125"/>
         <source>to</source>
-        <translation>à</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarEventDialog.ui" line="185"/>
         <source>OK</source>
-        <translation>D&apos;ACCORD</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -251,88 +251,88 @@
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="239"/>
         <source>15 min.</source>
-        <translation>15 min.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="240"/>
         <source>30 min.</source>
-        <translation>30 min.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="241"/>
         <source>45 min.</source>
-        <translation>45 min.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="242"/>
         <source>1 hour</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="243"/>
         <source>1 hour and a half</source>
-        <translation>1 heure et demie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="244"/>
         <source>2 hours</source>
-        <translation>2 heures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="259"/>
         <source>Open</source>
-        <translation>Ouvrir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="262"/>
         <source>New Dental Visit</source>
-        <translation>Nouvelle visite dental</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="267"/>
         <source>New Periodontal Measurment</source>
-        <translation>Nouvelle mesure parodontale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="272"/>
         <source>New Financial Document</source>
-        <translation>Nouveau document financier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="277"/>
         <source>Patient History</source>
-        <translation>Antécédents du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="285"/>
         <source>Edit</source>
-        <translation>Modifier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="293"/>
         <source>Move</source>
-        <translation>déplacer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="301"/>
         <source>Duration</source>
-        <translation>Durée</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="316"/>
         <source>Schedule Next Appointment</source>
-        <translation>Planifier le prochain rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="321"/>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="345"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarTable.cpp" line="335"/>
         <source>Set </source>
-        <translation>Ensemble </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -340,32 +340,32 @@
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="20"/>
         <source>QtCalendar</source>
-        <translation>QtCalendar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="80"/>
         <source>Today</source>
-        <translation>Aujourd&apos;hui</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="99"/>
         <source>Previous Week</source>
-        <translation>Semaine précédente</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="102"/>
         <source>&lt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="121"/>
         <source>Next Week</source>
-        <translation>La semaine prochaine</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="124"/>
         <source>&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.ui" line="212"/>
@@ -376,102 +376,102 @@
         <location filename="../src/View/Widgets/CalendarView.ui" line="322"/>
         <location filename="../src/View/Widgets/CalendarView.ui" line="344"/>
         <source>TextLabel</source>
-        <translation>Étiquette de texte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="103"/>
         <source>January</source>
-        <translation>Janvier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="104"/>
         <source>February</source>
-        <translation>Février</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="105"/>
         <source>March</source>
-        <translation>Mars</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="106"/>
         <source>April</source>
-        <translation>Avril</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="107"/>
         <source>May</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="108"/>
         <source>June</source>
-        <translation>juin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="109"/>
         <source>July</source>
-        <translation>juillet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="110"/>
         <source>August</source>
-        <translation>août</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="111"/>
         <source>September</source>
-        <translation>septembre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="112"/>
         <source>October</source>
-        <translation>octobre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="113"/>
         <source>November</source>
-        <translation>novembre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="114"/>
         <source>December</source>
-        <translation>décembre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Monday</source>
-        <translation>lundi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Tuesday</source>
-        <translation>mardi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Wednesday</source>
-        <translation>mercredi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Thursday</source>
-        <translation>jeudi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Friday</source>
-        <translation>vendredi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Saturday</source>
-        <translation>samedi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/CalendarView.cpp" line="155"/>
         <source>Sunday</source>
-        <translation>dimanche</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -479,22 +479,22 @@
     <message>
         <location filename="../src/View/uiComponents/CalendarWidget.cpp" line="50"/>
         <source>Previous Year</source>
-        <translation>Année précédente</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarWidget.cpp" line="55"/>
         <source>Next Year</source>
-        <translation>L&apos;année prochaine</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarWidget.cpp" line="60"/>
         <source>Previous Month</source>
-        <translation>Mois précédent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/CalendarWidget.cpp" line="65"/>
         <source>Next Month</source>
-        <translation>Mois prochain</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -502,118 +502,118 @@
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="11"/>
         <source>Add Procedure</source>
-        <translation>Ajouter une procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="15"/>
         <source>Notes And Procedures</source>
-        <translation>Notes et procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="23"/>
         <source>Restoration MO</source>
-        <translation>Restauration MO</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="24"/>
         <source>Restoration DO</source>
-        <translation>Restauration DO</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="25"/>
         <source>Restoration MOD</source>
-        <translation>Restauration MOD</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="26"/>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="27"/>
         <source>Remove</source>
-        <translation>Retirer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="28"/>
         <source>Remove Status</source>
-        <translation>Supprimer le statut</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="29"/>
         <source>Remove Bridge / Splint</source>
-        <translation>Retirer le Bridge / Éclisse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="51"/>
         <source>Restoration</source>
-        <translation>Restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="52"/>
         <source>Defect Restoration</source>
-        <translation>Restauration des défauts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="53"/>
         <source>Caries</source>
-        <translation>Carie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="54"/>
         <source>Non-Caries Lesion</source>
-        <translation>Non-Caries Lesion</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="56"/>
         <source>Occlusal</source>
-        <translation>Occlusal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="56"/>
         <source>Medial</source>
-        <translation>Médial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="56"/>
         <source>Distal</source>
-        <translation>Distal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="56"/>
         <source>Vestibular</source>
-        <translation>Vestibulaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="56"/>
         <source>Lingual</source>
-        <translation>Lingual</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="56"/>
         <source>Cervical</source>
-        <translation>Cervical</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="84"/>
         <source>Endodontics</source>
-        <translation>Endodontie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="93"/>
         <source>Surgery</source>
-        <translation>Chirurgie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="103"/>
         <source>Supernumeral Tooth</source>
-        <translation>Dent supernuméraire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="105"/>
         <source>Periodontology</source>
-        <translation>Parodontologie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ContextMenu.cpp" line="116"/>
         <source>Prosthodontics</source>
-        <translation>Prosthodontique</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -621,262 +621,262 @@
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="41"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: C&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="47"/>
         <source>Caries</source>
-        <translation>Caries</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="78"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: О&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier O</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="84"/>
         <source>Restoration</source>
-        <translation>Restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="126"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: D&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="132"/>
         <source>Root Canal Treatment</source>
-        <translation>Traitement canalaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="157"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: Q&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier Q</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="163"/>
         <source>Post</source>
-        <translation>Poste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="188"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: K&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier K</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="194"/>
         <source>Crown</source>
-        <translation>Couronne</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: B&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="228"/>
         <source>Bridge</source>
-        <translation>Bridge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="253"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: E&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="259"/>
         <source>Missing Tooth</source>
-        <translation>Dent manquante</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="284"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: I&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier I</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="290"/>
         <source>Implant</source>
-        <translation>Implant</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="315"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: X&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier X</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="318"/>
         <source>Denture</source>
-        <translation>Prothèse dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="346"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: S&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier S</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="352"/>
         <source>Splint / Adhesive Bridge</source>
-        <translation>Attelle / Bridge adhésif</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="377"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: H&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier H</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="380"/>
         <source>Healthy Tooth</source>
-        <translation>Dent saine</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="405"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: T&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier T</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="411"/>
         <source>Temporary Tooth</source>
-        <translation>Dent provisoire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="436"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: Del&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier Del</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="439"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="471"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: P&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier P</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="477"/>
         <source>Pulpitis</source>
-        <translation>Pulpite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="502"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: N&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="505"/>
         <source>Necrosis</source>
-        <translation>Nécrose</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="530"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: G&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier G</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="536"/>
         <source>Apical Lesion</source>
-        <translation>Lésion apicale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="561"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: Z&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier Z</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="564"/>
         <source>Resorption</source>
-        <translation>Résorption</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="589"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: F&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier F</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="595"/>
         <source>Fracture</source>
-        <translation>Fracture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="620"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: V&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier V</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="623"/>
         <source>Calculus</source>
-        <translation>Calcul</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="648"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: L&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="654"/>
         <source>Periodontitis</source>
-        <translation>Parodontite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="679"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: 1-3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier 1-3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="685"/>
         <source>Mobility</source>
-        <translation>Mobilité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: R&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier R</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="716"/>
         <source>Root / Severe Decay</source>
-        <translation>Racine / Carie sévère</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="741"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: M&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier M</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="747"/>
         <source>Impacted Tooth</source>
-        <translation>Dent incluse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="772"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: J&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="775"/>
         <source>Supernumeral Tooth</source>
-        <translation>Dent surnuméraire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="817"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: Y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier Y</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="823"/>
         <source>Defective Restoration</source>
-        <translation>Restauration défectueuse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="854"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hotkey: U&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Raccourci clavier U</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ControlPanel.ui" line="860"/>
         <source>Non-Caries Lesion</source>
-        <translation>Lésion non carieuse</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -884,32 +884,32 @@
     <message>
         <location filename="../src/View/Widgets/DetailedStatus.ui" line="20"/>
         <source>DetailedStatus</source>
-        <translation>Statut détaillé</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DetailedStatus.ui" line="30"/>
         <source>Procedures</source>
-        <translation>Procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DetailedStatus.ui" line="47"/>
         <source>Notes</source>
-        <translation>Notes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DetailedStatus.ui" line="88"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DetailedStatus.ui" line="98"/>
         <source>ОК</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DetailedStatus.cpp" line="15"/>
         <source>Notes and Procedures</source>
-        <translation>Notes et procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -917,103 +917,103 @@
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="20"/>
         <source>QDento</source>
-        <translation>QDento</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="111"/>
         <source>New Dental Visit (Ctrl+N)</source>
-        <translation>Nouvelle consultation dentaire (Ctrl+N)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="114"/>
         <source>Visit</source>
-        <translation>Visit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="145"/>
         <source>New Periodontal Measurment (Ctrl+M)</source>
-        <translation>Nouvelle mesure parodontale (Ctrl+M)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="148"/>
         <source>Perio</source>
-        <translation>Périodontal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="161"/>
         <source>New Financial Document (Ctrl+F)</source>
-        <translation>Nouveau document financier (Ctrl+F)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="164"/>
         <source>Invoice</source>
-        <translation>Facture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="189"/>
         <source>Browse Documents (Ctrl+O)</source>
-        <translation>Parcourir les documents (Ctrl+O)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="192"/>
         <source>Open</source>
-        <translation>Ouvrir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="205"/>
         <source>Appointments</source>
-        <translation>Rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="208"/>
         <source>Calendar</source>
-        <translation>Calendrier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="227"/>
         <location filename="../src/View/Widgets/QDento.ui" line="230"/>
         <source>Settings</source>
-        <translation>Paramètres</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="249"/>
         <source>About QDento</source>
-        <translation>À propos de QDento</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="252"/>
         <source>about</source>
-        <translation>à propos de</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="296"/>
         <source>Save Current Document (Ctrl+S)</source>
-        <translation>Enregistrer le document actuel (Ctrl+S)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="299"/>
         <source>Save</source>
-        <translation>Enregistrer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="349"/>
         <source>Reminders</source>
-        <translation>Rappels</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="352"/>
         <source>notify</source>
-        <translation>notifier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="390"/>
         <source>Make a Donation</source>
-        <translation>Faire un don</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.ui" line="393"/>
         <source>Donate</source>
-        <translation>un don</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1021,32 +1021,32 @@
     <message>
         <location filename="../src/View/Widgets/DoctorSettingsDialog.ui" line="20"/>
         <source>DoctorSettingsDialog</source>
-        <translation>MédecinParamètresBoîtededialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DoctorSettingsDialog.ui" line="30"/>
         <source>First Name:</source>
-        <translation>Prénom :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DoctorSettingsDialog.ui" line="37"/>
         <source>Last Name:</source>
-        <translation>Nom de famille :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DoctorSettingsDialog.ui" line="44"/>
         <source>Password</source>
-        <translation>Mot de passe</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DoctorSettingsDialog.ui" line="132"/>
         <source>No Password</source>
-        <translation>Pas de mot de passe</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/DoctorSettingsDialog.ui" line="196"/>
         <source>OK</source>
-        <translation>D&apos;accord</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1054,62 +1054,62 @@
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="33"/>
         <source>Restoration</source>
-        <translation>Restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="34"/>
         <source>Defect Restoration</source>
-        <translation>Restauration des défauts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="35"/>
         <source>Caries</source>
-        <translation>Carie dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="36"/>
         <source>Non-Caries Lesion</source>
-        <translation>Lésion non carieuse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="37"/>
         <source>Mobility</source>
-        <translation>Mobilité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="39"/>
         <source>Occlusal</source>
-        <translation>Occlusal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="39"/>
         <source>Medial</source>
-        <translation>Médial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="39"/>
         <source>Distal</source>
-        <translation>Distal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="39"/>
         <source>Vestibular</source>
-        <translation>Vestibulaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="39"/>
         <source>Lingual</source>
-        <translation>Lingual</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="39"/>
         <source>Cervical</source>
-        <translation>Cervicale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/DsnMenu.cpp" line="80"/>
         <source>Remove</source>
-        <translation>Retirer</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1117,148 +1117,148 @@
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="26"/>
         <source>FinancialView</source>
-        <translation>Vuefinancière</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="61"/>
         <location filename="../src/View/Widgets/FinancialView.ui" line="80"/>
         <source>PushButton</source>
-        <translation>Boutonpoussoir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="91"/>
         <source>Number</source>
-        <translation>Nombre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="129"/>
         <source>Issue Date:</source>
-        <translation>Date d&apos;émission :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="152"/>
         <source>Type:</source>
-        <translation>Type:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="166"/>
         <source>Invoice</source>
-        <translation>Facture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="171"/>
         <source>Debit Note</source>
-        <translation>Note de débit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="176"/>
         <source>Credit Note</source>
-        <translation>Note de crédit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="184"/>
         <source>Main Document Number:</source>
-        <translation>Numéro du document principal :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="222"/>
         <source>from</source>
-        <translation>à partir de</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="275"/>
         <source>Services:</source>
-        <translation>Services :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="308"/>
         <source>Add Service</source>
-        <translation>Ajouter un service</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="311"/>
         <source>Add</source>
-        <translation>Ajouter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="336"/>
         <source>Edit Service</source>
-        <translation>Modifier le service</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="339"/>
         <source>Edit</source>
-        <translation>Modifier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="364"/>
         <source>Remove Service</source>
-        <translation>Supprimer le service</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="367"/>
         <source>Delete</source>
-        <translation>Supprimer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="402"/>
         <source>Print Current Document</source>
-        <translation>Imprimer le document actuel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="405"/>
         <source>Print</source>
-        <translation>Imprimer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="441"/>
         <source>Type of Payment:</source>
-        <translation>Type de paiement :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="448"/>
         <source>Tax Event Date</source>
-        <translation>Date de l&apos;événement fiscal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="466"/>
         <source>Cash</source>
-        <translation>Espèces</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="471"/>
         <source>Transaction</source>
-        <translation>Transaction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="476"/>
         <source>POS</source>
-        <translation>Point de vente</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="481"/>
         <source>Combined</source>
-        <translation>Combiné</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="543"/>
         <source>Payment amount:</source>
-        <translation>Montant du paiement :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="550"/>
         <source>VAT amount:</source>
-        <translation>Montant de la TVA :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.ui" line="557"/>
         <source>Total amount:</source>
-        <translation>Montant total :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/FinancialView.cpp" line="174"/>
         <source>VAT</source>
-        <translation>Taxe sur la valeur ajoutée</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1266,17 +1266,17 @@
     <message>
         <location filename="../src/View/Widgets/InputDialog.ui" line="14"/>
         <source>InputDialog</source>
-        <translation>BoîtededialogueEntrée</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/InputDialog.ui" line="51"/>
         <source>Cancel</source>
-        <translation>Cancel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/InputDialog.ui" line="61"/>
         <source>ОК</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1285,24 +1285,24 @@
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="50"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="62"/>
         <source>Name: </source>
-        <translation>Nom : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="51"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="63"/>
         <source>Identifier: </source>
-        <translation>Identifiant : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="52"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="64"/>
         <source>Address: </source>
-        <translation>Adresse : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="69"/>
         <source>Issuer</source>
-        <translation>Émetteur</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1310,33 +1310,33 @@
     <message>
         <location filename="../src/View/Widgets/LoginView.ui" line="32"/>
         <source>LoginView</source>
-        <translation>ConnexionAffichage</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/LoginView.ui" line="50"/>
         <source>Dentist:</source>
-        <translation>Dentiste :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/LoginView.ui" line="70"/>
         <source>Password:</source>
-        <translation>Mot de passe :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/LoginView.ui" line="162"/>
         <location filename="../src/View/Widgets/LoginView.cpp" line="15"/>
         <source>Login</source>
-        <translation>Connexion</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/LoginView.ui" line="199"/>
         <source>Remember me</source>
-        <translation>Se souvenir de moi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/LoginView.cpp" line="59"/>
         <source>No Password</source>
-        <translation>Pas de mot de passe</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1344,17 +1344,17 @@
     <message>
         <location filename="../src/View/Widgets/MultilineDialog.ui" line="14"/>
         <source>MultilineDialog</source>
-        <translation>dialoguemultiligne</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/MultilineDialog.ui" line="29"/>
         <source>Копирай текста</source>
-        <translation>Copier le texte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/MultilineDialog.ui" line="52"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1362,37 +1362,37 @@
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="14"/>
         <source>NewDocDialog</source>
-        <translation>BoîtededialogueNouveaudocument</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="34"/>
         <source>Search:</source>
-        <translation>Recherche :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="53"/>
         <source>Identifier</source>
-        <translation>Identifiant</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="72"/>
         <source>Patient Name</source>
-        <translation>Nom du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="106"/>
         <source>Phone Number</source>
-        <translation>Numéro de téléphone</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="130"/>
         <source>New Patient</source>
-        <translation>Nouveau patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NewDocDialog.ui" line="153"/>
         <source>ОК</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1400,57 +1400,57 @@
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Dialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.ui" line="22"/>
         <source>Reminder in:</source>
-        <translation>Rappel dans :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.ui" line="78"/>
         <source>Description:</source>
-        <translation>Description :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.ui" line="118"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.cpp" line="11"/>
         <source>Add Reminder</source>
-        <translation>Ajouter un rappel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.h" line="20"/>
         <source>Day</source>
-        <translation>Jour</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.h" line="20"/>
         <source>Month</source>
-        <translation>Mois</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.h" line="20"/>
         <source>Year</source>
-        <translation>Année</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.h" line="21"/>
         <source>Days</source>
-        <translation>Jours</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.h" line="21"/>
         <source>Months</source>
-        <translation>Mois</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationDialog.h" line="21"/>
         <source>Years</source>
-        <translation>Années</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1458,27 +1458,27 @@
     <message>
         <location filename="../src/View/Widgets/NotificationListDialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Dialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationListDialog.ui" line="24"/>
         <source>Active</source>
-        <translation>Actif</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationListDialog.ui" line="50"/>
         <source>Pending</source>
-        <translation>En attente</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationListDialog.ui" line="94"/>
         <source>Schedule an Appointment</source>
-        <translation>Prendre rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/NotificationListDialog.cpp" line="21"/>
         <source>Reminders</source>
-        <translation>Rappels</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1486,22 +1486,22 @@
     <message>
         <location filename="../src/View/TableModels/NotificationTableModel.cpp" line="18"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/NotificationTableModel.cpp" line="19"/>
         <source>Patient name</source>
-        <translation>Nom du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/NotificationTableModel.cpp" line="20"/>
         <source>Phone</source>
-        <translation>Téléphone</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/NotificationTableModel.cpp" line="21"/>
         <source>Description</source>
-        <translation>Description</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1509,47 +1509,37 @@
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="14"/>
         <source>PatientFormDialog</source>
-        <translation>FormulairepatientBoîtededialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="196"/>
-        <source>Male</source>
-        <translation>Homme</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="201"/>
-        <source>Female</source>
-        <translation>Femme</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="115"/>
-        <source>Address:</source>
-        <translation>Adresse :</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="185"/>
-        <source>Sex:</source>
-        <translation>Sexe :</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="98"/>
-        <source>Phone:</source>
-        <translation>Téléphone :</translation>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="38"/>
+        <source>Identifier:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="58"/>
         <source>First name:</source>
-        <translation>Prénom :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="78"/>
         <source>Last name:</source>
-        <translation>Nom de famille :</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="98"/>
+        <source>Phone:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="115"/>
+        <source>Address:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="138"/>
         <source>Birth:</source>
-        <translation>Naissance :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="168"/>
@@ -1557,35 +1547,45 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="216"/>
-        <source>Избор на цвят</source>
-        <translation>Choix de la couleur</translation>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="185"/>
+        <source>Sex:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="196"/>
+        <source>Male</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="201"/>
+        <source>Female</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="209"/>
         <source>Color code:</source>
-        <translation>Code couleur :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="38"/>
-        <source>Identifier:</source>
-        <translation>Identifiant:</translation>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="216"/>
+        <source>Избор на цвят</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.ui" line="250"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.cpp" line="12"/>
         <source>New document</source>
-        <translation>Nouveau document</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientFormDialog.cpp" line="17"/>
         <location filename="../src/View/Widgets/PatientFormDialog.cpp" line="18"/>
         <source>Invalid birthdate</source>
-        <translation>Date de naissance invalide</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1593,32 +1593,32 @@
     <message>
         <location filename="../src/View/Widgets/PatientHistoryDialog.ui" line="14"/>
         <source>PatientHistoryDialog</source>
-        <translation>Historique de Boîte de dialogue du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientHistoryDialog.ui" line="24"/>
         <source>Procedures</source>
-        <translation>Procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientHistoryDialog.ui" line="38"/>
         <source>Oral Chart History</source>
-        <translation>Historique des cartes orales</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientHistoryDialog.ui" line="55"/>
         <source>Patient Files</source>
-        <translation>Dossiers patients</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientHistoryDialog.ui" line="99"/>
         <source>Open Selected Documents</source>
-        <translation>Ouvrir les documents sélectionnés</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PatientHistoryDialog.ui" line="139"/>
         <source>Periodontal Measurments</source>
-        <translation>Mesures parodontaires</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1626,62 +1626,62 @@
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="157"/>
         <source>Next appointment</source>
-        <translation>Prochain rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="163"/>
         <source>Add reminder</source>
-        <translation>Ajouter un rappel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="169"/>
         <source>Patient notes</source>
-        <translation>Notes sur les patients</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="182"/>
         <source>Sex: </source>
-        <translation>Sexe : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="183"/>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="198"/>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="216"/>
         <source>Date of birth: </source>
-        <translation>Date de naissance : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="185"/>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="201"/>
         <source>Phone number: </source>
-        <translation>Numéro de téléphone : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="186"/>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="202"/>
         <source>Address: </source>
-        <translation>Adresse : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="187"/>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="203"/>
         <source>Age: </source>
-        <translation>Âge : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="235"/>
         <source>SN: </source>
-        <translation>Numéro de série: </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="239"/>
         <source>Male</source>
-        <translation>Homme</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="239"/>
         <source>Female</source>
-        <translation>Femme</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1689,32 +1689,32 @@
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="18"/>
         <source>Edit</source>
-        <translation>Modifier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="24"/>
         <source>New Dental Visit</source>
-        <translation>Nouvelle consultation dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="29"/>
         <source>New Periodontal Measurment</source>
-        <translation>Nouvelle mesure parodontale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="34"/>
         <source>New Invoice</source>
-        <translation>Nouvelle facture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="39"/>
         <source>Schedule and Appointment</source>
-        <translation>Calendrier et rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="44"/>
         <source>Patient History</source>
-        <translation>Historique du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1722,12 +1722,12 @@
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.ui" line="14"/>
         <source>PatientTileInfo</source>
-        <translation>Informations sur le patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PatientTileInfo.ui" line="59"/>
         <source>PushButton</source>
-        <translation>Boutonpoussoir</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1735,32 +1735,32 @@
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="122"/>
         <source> localized</source>
-        <translation> localisé</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="122"/>
         <source> generalized</source>
-        <translation> généralisé</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="123"/>
         <source> periodontitis</source>
-        <translation> parodontite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="126"/>
         <source>Diagnosis: </source>
-        <translation>Diagnostic : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="128"/>
         <source>Risk Assessment: </source>
-        <translation>Évaluation des risques : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="130"/>
         <source> risk</source>
-        <translation> risque</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1768,37 +1768,37 @@
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="14"/>
         <source>PerioStatisticView</source>
-        <translation>Affichage des statistiques périodiques</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="32"/>
         <source>Indexes:</source>
-        <translation>Index :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="46"/>
         <source>FMPS:</source>
-        <translation>FMPS:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="53"/>
         <source>FMBS:</source>
-        <translation>FMBS:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="60"/>
         <source>BOP:</source>
-        <translation>BOP:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="67"/>
         <source>Bone Loss:</source>
-        <translation>Perte osseuse :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="80"/>
         <source>Missing teeth:</source>
-        <translation>Dents manquantes :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="110"/>
@@ -1806,54 +1806,54 @@
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="124"/>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="131"/>
         <source>0 %</source>
-        <translation>0 %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="138"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="172"/>
         <source>Pocket Depth:</source>
-        <translation>Profondeur de poche :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="186"/>
         <source>Avg PD:</source>
-        <translation>PD moyenne:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="193"/>
         <source>up to 3 mm.</source>
-        <translation>jusqu&apos;à 3 mm.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="200"/>
         <source>4 и 5 mm.</source>
-        <translation>4 et 5 mm.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="207"/>
         <source>6 и 7 mm.</source>
-        <translation>6 et 7 mm.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="214"/>
         <source>над 7 mm.</source>
-        <translation>plus de 7 mm.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="244"/>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="378"/>
         <source>0 mm</source>
-        <translation>0 mm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="251"/>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="385"/>
         <source>192 (100%)</source>
-        <translation>192 (100%)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="258"/>
@@ -1863,67 +1863,67 @@
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="399"/>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="406"/>
         <source>0 (0%)</source>
-        <translation>0 (0%)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="306"/>
         <source>Clinical Attachment Loss:</source>
-        <translation>Perte clinique de l&apos;attache :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="320"/>
         <source>Avg CAL:</source>
-        <translation>CAL moyenne:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="327"/>
         <source>Extent:</source>
-        <translation>Étendue :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="334"/>
         <source>1 и 2 mm.</source>
-        <translation>1 et 2 mm.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="341"/>
         <source>3 и 4 mm.</source>
-        <translation>3 et 4 mm.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="348"/>
         <source>5 mm. or more:</source>
-        <translation>5 mm ou plus :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="526"/>
         <source>PD≥5mm</source>
-        <translation>PD≥5mm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="542"/>
         <source>BOP%</source>
-        <translation>BOP%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="583"/>
         <source>Bone Loss (index)</source>
-        <translation>Perte osseuse (indice)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="602"/>
         <source>Missing Teeth</source>
-        <translation>Dents manquantes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="621"/>
         <source>Smoking</source>
-        <translation>Fumer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioStatisticView.ui" line="640"/>
         <source>Systemic Factotrs</source>
-        <translation>Facteurs systémiques</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1931,68 +1931,68 @@
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="14"/>
         <source>PerioStatusView</source>
-        <translation>Affichage de l&apos;état parodontal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="58"/>
         <source>Tooth:</source>
-        <translation>Dent :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="112"/>
         <source>Mobility:</source>
-        <translation>Mobilité :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="166"/>
         <source>Furcation:</source>
-        <translation>Furkation :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="225"/>
         <source>FMPS:   </source>
-        <translation>FMPS:   </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="256"/>
         <source>FMBS:   </source>
-        <translation>FMBS:   </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="321"/>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="984"/>
         <source>Att. ging:</source>
-        <translation>Att. gingivale:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="378"/>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="930"/>
         <source>Recession:</source>
-        <translation>Récession :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="435"/>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="876"/>
         <source>GM:   </source>
-        <translation>GM:   </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="492"/>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="822"/>
         <source>BOP:   </source>
-        <translation>BOP:   </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="549"/>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="768"/>
         <source>CAL:   </source>
-        <translation>Perte d’attache clinique:   </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="606"/>
         <location filename="../src/View/Widgets/PerioStatusView.ui" line="714"/>
         <source>PD:   </source>
-        <translation>PD:   </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2000,7 +2000,7 @@
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.cpp" line="82"/>
         <source>Measurment date:</source>
-        <translation>Date de mesure :</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2008,32 +2008,32 @@
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.ui" line="14"/>
         <source>PerioSummary</source>
-        <translation>Résumé périodique</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.ui" line="53"/>
         <source>Indexes</source>
-        <translation>Index</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.ui" line="63"/>
         <source>Vestibular view</source>
-        <translation>Vue vestibulaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.ui" line="73"/>
         <source>Lingual view</source>
-        <translation>Vue linguale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.ui" line="218"/>
         <source>&lt;</source>
-        <translation>&lt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/PerioSummary.ui" line="253"/>
         <source>&gt;</source>
-        <translation>&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2041,72 +2041,72 @@
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="26"/>
         <source>PerioView</source>
-        <translation>PerioView</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="53"/>
         <source>Upper Teeth</source>
-        <translation>Dents Dessus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="69"/>
         <source>Lower Teeth</source>
-        <translation>Dents Bas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="85"/>
         <source>Bone loss:</source>
-        <translation>Perte osseuse :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="101"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="117"/>
         <source>Systemic factors</source>
-        <translation>Systemic factors</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="130"/>
         <source>Comprehensive occlusal reconstruction required</source>
-        <translation>Reconstruction occlusale complète nécessaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="143"/>
         <source>Smoking:</source>
-        <translation>Fume :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="151"/>
         <source>Smoker</source>
-        <translation>Fumer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="158"/>
         <source>Non-Smoker</source>
-        <translation>Non-fumeur</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="169"/>
         <source>10 cigarettes per day</source>
-        <translation>10 cigarettes par jour</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="176"/>
         <source>Up to 20 cigarettes per day</source>
-        <translation>Jusqu&apos;à 20 cigarettes par jour</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="183"/>
         <source>More than 20 cigarettes per day</source>
-        <translation>Plus de 20 cigarettes par jour</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/PerioView.ui" line="245"/>
         <source>Date:</source>
-        <translation>Date :</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2114,32 +2114,32 @@
     <message>
         <location filename="../src/View/Widgets/ProcedureDialog.ui" line="26"/>
         <source>ProcedureDialog</source>
-        <translation>Boîte de dialogue Procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureDialog.ui" line="108"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureDialog.ui" line="124"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureDialog.cpp" line="17"/>
         <source>Add Procedure</source>
-        <translation>Ajouter une procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureDialog.cpp" line="40"/>
         <source>Selected Teeth: </source>
-        <translation>Dents sélectionnées : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureDialog.cpp" line="53"/>
         <source>None</source>
-        <translation>Aucun</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2147,22 +2147,22 @@
     <message>
         <location filename="../src/View/Widgets/ProcedureEditDialog.ui" line="20"/>
         <source>ProcedureEditDialog</source>
-        <translation>ProcédureModifierDialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureEditDialog.ui" line="65"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureEditDialog.ui" line="72"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureEditDialog.cpp" line="12"/>
         <source>Edit Procedure</source>
-        <translation>Modifier la procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2170,112 +2170,112 @@
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="10"/>
         <source>Edit Procedure</source>
-        <translation type="unfinished">Modifier la procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="10"/>
         <source>Add Procedure</source>
-        <translation type="unfinished">Ajouter une procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="12"/>
         <source>General</source>
-        <translation>Général</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="13"/>
         <source>Tooth Non-Specific</source>
-        <translation>Dent non spécifique</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="14"/>
         <source>Full Debridement</source>
-        <translation>Débridement complet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="15"/>
         <source>Debridement On Single Tooth</source>
-        <translation>Débridement sur une seule dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="16"/>
         <source>Restoration</source>
-        <translation>Restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="17"/>
         <source>Remove Restoration</source>
-        <translation>Supprimer la restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="18"/>
         <source>Extraction</source>
-        <translation>Extraction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="19"/>
         <source>Implant</source>
-        <translation>Implant</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="20"/>
         <source>Endodontic</source>
-        <translation>Endodontique</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="21"/>
         <source>Post</source>
-        <translation>Publier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="22"/>
         <source>Remove Post</source>
-        <translation>Supprimer la publication</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="23"/>
         <source>Post Core</source>
-        <translation>Noyau de publication</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="24"/>
         <source>Post Crown</source>
-        <translation>Couronne postérieure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="25"/>
         <source>Crown</source>
-        <translation>Couronne</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="26"/>
         <source>Bridge</source>
-        <translation>Bridge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="27"/>
         <source>Remove Crown or Bridge</source>
-        <translation>Retirer une couronne ou un bridge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="28"/>
         <source>Denture Pair</source>
-        <translation>Paire de dentiers</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="29"/>
         <source>Denture</source>
-        <translation>Dentier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="30"/>
         <source>Adhesive Bridge/Splint</source>
-        <translation>Bridge adhésif/Attelle</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="31"/>
         <source>Multiple Extraction</source>
-        <translation>Extraction multiple</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2283,52 +2283,52 @@
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="14"/>
         <source>ProcedureElementDialog</source>
-        <translation>Boîte de dialogue Élément de procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="35"/>
         <source>Code:</source>
-        <translation>Code :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="45"/>
         <source>Description:</source>
-        <translation>Description:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="55"/>
         <source>Price:</source>
-        <translation>Prix :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="75"/>
         <source>Diagnosis:</source>
-        <translation>Diagnosis:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="82"/>
         <source>Determines the default diagnosis</source>
-        <translation>Détermine le diagnostic par défaut</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="85"/>
         <source>Auto</source>
-        <translation>Auto</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="92"/>
         <source>Type:</source>
-        <translation>Type :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="99"/>
         <source>Determines how the procedure affects the tooth status</source>
-        <translation>Détermine comment la procédure affecte l&apos;état de la dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.ui" line="124"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2336,92 +2336,92 @@
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="20"/>
         <source>ProcedureInput</source>
-        <translation>Entrée de procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="38"/>
         <source>Diagnosis:</source>
-        <translation>Diagnostic:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="48"/>
         <source>No diagnosis</source>
-        <translation>Aucun diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="97"/>
         <source>Block crowns</source>
-        <translation>Couronnes de blocs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="104"/>
         <source>On supernumeral tooth</source>
-        <translation>Sur dent surnuméraire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="133"/>
         <source>From tooth</source>
-        <translation>De la dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="156"/>
         <source>to tooth</source>
-        <translation>à la dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="198"/>
         <source>Surfraces</source>
-        <translation>Surfaces</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="208"/>
         <source>Occlusal/Incisal</source>
-        <translation>Occlusal/Incisal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="215"/>
         <source>Medial</source>
-        <translation>Médial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="222"/>
         <source>Distal</source>
-        <translation>Distal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="233"/>
         <source>Buccal/Labial</source>
-        <translation>Buccale/labiale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="240"/>
         <source>Lingual/Palatal</source>
-        <translation>Lingual/Palatal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="247"/>
         <source>Cervical</source>
-        <translation>Cervicale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="271"/>
         <source>Post Placement</source>
-        <translation>Après placement</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="306"/>
         <source>Price:</source>
-        <translation>Prix :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="345"/>
         <source>Additional Notes:</source>
-        <translation>Remarques supplémentaires :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureInput.ui" line="393"/>
         <source>ErrorLabel</source>
-        <translation>Étiquette d&apos;erreur</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2429,12 +2429,12 @@
     <message>
         <location filename="../src/View/SubWidgets/ProcedureListView.ui" line="14"/>
         <source>ProcedureListView</source>
-        <translation>Affichaged lalistede procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/ProcedureListView.ui" line="37"/>
         <source>Search:</source>
-        <translation>Recherche :</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2442,17 +2442,17 @@
     <message>
         <location filename="../src/View/Widgets/ProcedurePrintSelectDialog.ui" line="29"/>
         <source>ProcedurePrintSelectDialog</source>
-        <translation>Procédure Imprimer Sélectionner Boîte de dialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedurePrintSelectDialog.ui" line="53"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedurePrintSelectDialog.cpp" line="17"/>
         <source>Select Procedures</source>
-        <translation>Sélectionner les procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2460,22 +2460,22 @@
     <message>
         <location filename="../src/View/TableModels/ProcedureSelectModel.cpp" line="37"/>
         <source>Code</source>
-        <translation>Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureSelectModel.cpp" line="38"/>
         <source>Procedure</source>
-        <translation>Procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureSelectModel.cpp" line="39"/>
         <source>Tooth</source>
-        <translation>Dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureSelectModel.cpp" line="40"/>
         <source>Price</source>
-        <translation>Prix</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2483,42 +2483,42 @@
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="43"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="44"/>
         <source>Code</source>
-        <translation>Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="45"/>
         <source>Diagnosis</source>
-        <translation>Diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="46"/>
         <source>Tooth</source>
-        <translation>Dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="47"/>
         <source>Procedure</source>
-        <translation>Procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="48"/>
         <source>Price</source>
-        <translation>Prix</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="49"/>
         <source>Dentist</source>
-        <translation>Dentiste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTableModel.cpp" line="50"/>
         <source>Notes</source>
-        <translation>Remarques</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2527,17 +2527,17 @@
         <location filename="../src/View/TableModels/ProcedureTemplateModel.cpp" line="63"/>
         <location filename="../src/View/TableModels/ProcedureTemplateModel.cpp" line="64"/>
         <source>Code</source>
-        <translation>Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTemplateModel.cpp" line="65"/>
         <source>Description</source>
-        <translation>Description</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/TableModels/ProcedureTemplateModel.cpp" line="66"/>
         <source>Price</source>
-        <translation>Prix</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2545,27 +2545,27 @@
     <message>
         <location filename="../src/View/Widgets/QDento.cpp" line="68"/>
         <source>Settings</source>
-        <translation>Paramètres</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.cpp" line="70"/>
         <source>Exit</source>
-        <translation>Sortie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.cpp" line="198"/>
         <source>No active reminders</source>
-        <translation>Aucun rappel actif</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.cpp" line="199"/>
         <source>1 active reminder</source>
-        <translation>1 rappel actif</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/QDento.cpp" line="200"/>
         <source> active reminders</source>
-        <translation> rappels actifs</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2573,7 +2573,7 @@
     <message>
         <location filename="../src/View/ModalDialogBuilder.cpp" line="84"/>
         <source>Treatment Result</source>
-        <translation>Résultat du traitement</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2581,1084 +2581,1083 @@
     <message>
         <location filename="../src/View/ModalDialogBuilder.cpp" line="115"/>
         <source>Error</source>
-        <translation>Erreur</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/View/ModalDialogBuilder.cpp" line="101"/>
-        <source>Yes</source>
-        <translation>Oui</translation>
-    </message>
-    <message>
-        <location filename="../src/View/ModalDialogBuilder.cpp" line="102"/>
-        <source>No</source>
-        <translation>Non</translation>
-    </message>
-    <message>
-        <location filename="../src/View/ModalDialogBuilder.cpp" line="152"/>
-        <source>Save document</source>
-        <translation>Enregistrer le document</translation>
-    </message>
-    <message>
         <location filename="../src/Database/DbUpdater.cpp" line="39"/>
         <source>Database version is older than the software version. Please update software!</source>
-        <translation>La version de la base de données est plus ancienne que la version du logiciel. Veuillez mettre à jour le logiciel !</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="70"/>
         <source>Can&apos;t create database. Be sure to start the program as administrator.</source>
-        <translation>Impossible de créer la base de données. Veuillez vous assurer de démarrer le programme en tant qu&apos;administrateur.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="77"/>
         <source>Loading textures</source>
-        <translation>Chargement des textures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="85"/>
         <source>Updating database</source>
-        <translation>Mise à jour de la base de données</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="88"/>
         <source>Starting QDento...</source>
-        <translation>Démarrage de QDento...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Snapshot.cpp" line="22"/>
         <source>Initial oral status</source>
-        <translation>État buccal initial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/TimeFrame.cpp" line="10"/>
         <location filename="../src/Model/Dental/TimeFrame.cpp" line="13"/>
         <location filename="../src/Presenter/VisitPresenter.cpp" line="80"/>
         <source>Dental Visit </source>
-        <translation>Visite dentaire </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/TimeFrame.cpp" line="10"/>
         <source> (initial status)</source>
-        <translation> (statut initial)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/TimeFrame.cpp" line="13"/>
         <source> (procedures)</source>
-        <translation> (procédures)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/TimeFrame.cpp" line="16"/>
         <source>Periodontal Measurment</source>
-        <translation>Mesure parodontale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="115"/>
         <source>Upper right third molar</source>
-        <translation>Troisième molaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="116"/>
         <source>Upper right second molar</source>
-        <translation>Deuxième molaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="117"/>
         <source>Upper right first molar</source>
-        <translation>Première molaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="118"/>
         <source>Upper right second premolar</source>
-        <translation>Deuxième prémolaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="119"/>
         <source>Upper right first premolar</source>
-        <translation>Première prémolaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="120"/>
         <source>Upper right canine</source>
-        <translation>Canine supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="121"/>
         <source>Upper right lateral incisor</source>
-        <translation>Incisive latérale supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="122"/>
         <source>Upper right central incisor</source>
-        <translation>Incisive centrale supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="123"/>
         <source>Upper left central incisor</source>
-        <translation>Incisive centrale supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="124"/>
         <source>Upper left lateral incisor</source>
-        <translation>Incisive latérale supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="125"/>
         <source>Upper left canine</source>
-        <translation>Canine supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="126"/>
         <source>Upper left first premolar</source>
-        <translation>Première prémolaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="127"/>
         <source>Upper left second premolar</source>
-        <translation>Deuxième prémolaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="128"/>
         <source>Upper left first molar</source>
-        <translation>Première molaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="129"/>
         <source>Upper left second molar</source>
-        <translation>Deuxième molaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="130"/>
         <source>Upper left third molar</source>
-        <translation>Troisième molaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="132"/>
         <source>Lower left third molar</source>
-        <translation>Troisième molaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="133"/>
         <source>Lower left second molar</source>
-        <translation>Deuxième molaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="134"/>
         <source>Lower left first molar</source>
-        <translation>Première molaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="135"/>
         <source>Lower left second premolar</source>
-        <translation>Deuxième prémolaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="136"/>
         <source>Lower left first premolar</source>
-        <translation>Première prémolaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="137"/>
         <source>Lower left canine</source>
-        <translation>Canine inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="138"/>
         <source>Lower left lateral incisor</source>
-        <translation>Incisive latérale inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="139"/>
         <source>Lower left central incisor</source>
-        <translation>Incisive centrale inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="140"/>
         <source>Lower right central incisor</source>
-        <translation>Incisive centrale inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="141"/>
         <source>Lower right lateral incisor</source>
-        <translation>Incisive latérale inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="142"/>
         <source>Lower right canine</source>
-        <translation>Canine inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="143"/>
         <source>Lower right first premolar</source>
-        <translation>Première prémolaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="144"/>
         <source>Lower right second premolar</source>
-        <translation>Deuxième prémolaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="145"/>
         <source>Lower right first molar</source>
-        <translation>Première molaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="146"/>
         <source>Lower right second molar</source>
-        <translation>Deuxième molaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="147"/>
         <source>Lower right third molar</source>
-        <translation>Troisième molaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="155"/>
         <source>Upper right second primary molar</source>
-        <translation>Deuxième molaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="156"/>
         <source>Upper right first primary molar</source>
-        <translation>Première molaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="157"/>
         <source>Upper right primary canine</source>
-        <translation>Canine primaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="158"/>
         <source>Upper right second primary incisor</source>
-        <translation>Deuxième incisive primaire supérieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="159"/>
         <source>Upper right first primary incisor</source>
-        <translation>Incisive primaire supérieureà droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="160"/>
         <source>Upper left first primary incisor</source>
-        <translation>Incisive primaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="161"/>
         <source>Upper left second primary incisor</source>
-        <translation>Deuxième incisive primaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="162"/>
         <source>Upper left primary canine</source>
-        <translation>Canine primaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="163"/>
         <source>Upper left first primary molar</source>
-        <translation>Première molaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="164"/>
         <source>Upper left second primary molar</source>
-        <translation>Deuxième molaire primaire supérieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="172"/>
         <source>Lower left second primary molar</source>
-        <translation>Deuxième molaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="173"/>
         <source>Lower left first primary molar</source>
-        <translation>Première molaire inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="174"/>
         <source>Lower left primary canine</source>
-        <translation>Canine primaire  inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="175"/>
         <source>Lower left second primary incisor</source>
-        <translation>Deuxième incisive primaire  inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="176"/>
         <source>Lower left first primary incisor</source>
-        <translation>Incisive primaire  inférieure gauche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="177"/>
         <source>Lower right first primary incisor</source>
-        <translation>Incisive primaire  inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="178"/>
         <source>Lower right second primary incisor</source>
-        <translation>Deuxième incisive primaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="179"/>
         <source>Lower right primary canine</source>
-        <translation>Canine primaire  inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="180"/>
         <source>Lower right first primary molar</source>
-        <translation>Première molaire  inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/ToothUtils.cpp" line="181"/>
         <source>Lower right second primary molar</source>
-        <translation>Deuxième molaire primaire inférieure droite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Financial/Invoice.cpp" line="35"/>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="272"/>
         <location filename="../src/View/Printer.cpp" line="130"/>
         <source>Invoice</source>
-        <translation>Facture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Financial/Invoice.cpp" line="35"/>
         <location filename="../src/View/Printer.cpp" line="133"/>
         <source>Debit Note</source>
-        <translation>Note de débit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Financial/Invoice.cpp" line="35"/>
         <location filename="../src/View/Printer.cpp" line="136"/>
         <source>Credit Note</source>
-        <translation>Note de crédit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="28"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="29"/>
         <location filename="../src/Model/PlainTable.cpp" line="55"/>
         <source>Code</source>
-        <translation>Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="30"/>
         <source>Diagnosis</source>
-        <translation>Diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="31"/>
         <source>Tooth</source>
-        <translation>Dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="32"/>
         <source>Procedure</source>
-        <translation>Procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="33"/>
         <source>Price</source>
-        <translation>Prix</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="34"/>
         <source>Notes</source>
-        <translation>Remarques</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="56"/>
         <source>Description</source>
-        <translation>Description</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="57"/>
         <source>Quantity</source>
-        <translation>Quantité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="58"/>
         <source>Unit Price</source>
-        <translation>Prix unitaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/PlainTable.cpp" line="59"/>
         <location filename="../src/View/Printer.cpp" line="255"/>
         <source>Total</source>
-        <translation>Total</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="174"/>
         <source>New dental visit</source>
-        <translation>Nouvelle visite dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="175"/>
         <source>New periodontal measurment</source>
-        <translation>Nouvelle mesure parodontale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="176"/>
         <source>New financial document</source>
-        <translation>Nouveau document financier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="177"/>
         <source>Schedule new appointment</source>
-        <translation>Prendre un nouveau rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="178"/>
         <source>Patient history</source>
-        <translation>Antécédents du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="180"/>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="230"/>
         <source>Open</source>
-        <translation>Ouvrir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="220"/>
         <source>Are you sure you want to delete selected </source>
-        <translation>Êtes-vous sûr de vouloir supprimer les éléments sélectionnés </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="223"/>
         <source>dental visits?</source>
-        <translation>visite dentaire?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="224"/>
         <source>periodontal measurments?</source>
-        <translation>mesures parodontales ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="225"/>
         <source>patients? All their medical files will be deleted!</source>
-        <translation>patients ? Tous leurs dossiers médicaux seront supprimés !</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="226"/>
         <source>financial documents?</source>
-        <translation>documents financiers ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="239"/>
         <source>First you have to close all documents marked for deletion!</source>
-        <translation>Vous devez d&apos;abord fermer tous les documents marqués pour supprimés !</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/BrowserPresenter.cpp" line="278"/>
         <source>The document could not be opened because it is not created by current user</source>
-        <translation>Le document n&apos;a pas pu être ouvert car il n&apos;a pas été créé par l&apos;utilisateur actuel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/CalendarPresenter.cpp" line="40"/>
         <source>Appointments</source>
-        <translation>Rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/CalendarPresenter.cpp" line="116"/>
         <location filename="../src/Presenter/NewDocPresenter.cpp" line="15"/>
         <source>New Patient</source>
-        <translation>Nouveau patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="201"/>
         <source>The financial document must contain at least one service</source>
-        <translation>Le document financier doit contenir au moins un service</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="208"/>
         <source>Financial document with such number already exists. Are you sure you want to duplicate the numbering?</source>
-        <translation>Un document financier portant ce numéro existe déjà. Êtes-vous sûr de vouloir dupliquer la numérotation ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="257"/>
         <source>New Invoice</source>
-        <translation>Nouvelle facture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="258"/>
         <source>New Debit Note</source>
-        <translation>Nouvelle note de débit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="259"/>
         <source>New Credit Note</source>
-        <translation>Nouvelle note de crédit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="273"/>
         <source>Debit note</source>
-        <translation>Note de débit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/FinancialPresenter.cpp" line="274"/>
         <source>Credit note</source>
-        <translation>Note de crédit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/VisitPresenter.cpp" line="61"/>
         <source>To add procedure on a supernumeral tooth, add one in the dental chart first</source>
-        <translation>Pour ajouter une procédure sur une dent surnuméraire, ajoutez-en d&apos;abord une dans le tableau dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/VisitPresenter.cpp" line="77"/>
         <source>New dental visit </source>
-        <translation>Nouvelle visite dentaire </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/VisitPresenter.cpp" line="236"/>
         <source>Select multiple teeth before adding this status</source>
-        <translation>Sélectionnez plusieurs dents avant d&apos;ajouter ce statut</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/VisitPresenter.cpp" line="415"/>
         <source>Add at least one procedure</source>
-        <translation>Ajouter au moins une procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/VisitPresenter.cpp" line="428"/>
         <source>Initial dental status</source>
-        <translation>État dentaire initial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/LoginPresenter.cpp" line="48"/>
         <source>Wrong password</source>
-        <translation>Mot de passe incorrect</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/MainPresenter.cpp" line="62"/>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="237"/>
         <source>New Dental Visit</source>
-        <translation>Nouvelle visite chez le dentiste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/MainPresenter.cpp" line="72"/>
         <location filename="../src/Presenter/PerioPresenter.cpp" line="313"/>
         <location filename="../src/View/Widgets/BrowserDialog.cpp" line="242"/>
         <source>New Periodontal Measurment</source>
-        <translation>Nouvelle mesure parodontale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/MainPresenter.cpp" line="200"/>
         <source>A placeholder profile has been created. Enter your credentials from settings</source>
-        <translation>Un profil temporaire a été créé. Entrez vos identifiants dans les paramètres</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/PatientHistoryPresenter.cpp" line="62"/>
         <source>Dental visit </source>
-        <translation>Visite dentaire </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/PatientHistoryPresenter.cpp" line="62"/>
         <source> (initial oral status)</source>
-        <translation> (état buccal initial)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/PatientHistoryPresenter.cpp" line="104"/>
         <source>The document could not be opened because it is not created by the current user.</source>
-        <translation>Le document n&apos;a pas pu être ouvert car il n&apos;a pas été créé par l&apos;utilisateur actuel.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/PatientInfoPresenter.cpp" line="58"/>
         <source>Patient notes</source>
-        <translation>Notes sur les patients</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/PerioPresenter.cpp" line="26"/>
         <source>A previous periodontal measurment has been found. Do you want to load the previous results?</source>
-        <translation>Une mesure parodontale précédente a été trouvée. Voulez-vous charger les résultats précédents ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/PerioPresenter.cpp" line="319"/>
         <source>Periodontal Measurment </source>
-        <translation>Mesure parodontale </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="24"/>
         <source>Select a procedure</source>
-        <translation>Sélectionnez une procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="32"/>
         <source>To add this procedure you must select at least one tooth</source>
-        <translation>Pour ajouter cette procédure, vous devez sélectionner au moins une dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="149"/>
         <location filename="../src/Presenter/SurfacePanelPresenter.cpp" line="122"/>
         <location filename="../src/Model/Dental/Dental.h" line="51"/>
         <source>Caries</source>
-        <translation>Caries</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="150"/>
         <source>Tooth erosion</source>
-        <translation>Érosion dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="150"/>
         <source>Tooth abrasion</source>
-        <translation>Abrasion dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="151"/>
         <location filename="../src/Model/Dental/Dental.h" line="54"/>
         <source>Pulpitis</source>
-        <translation>Pulpite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="152"/>
         <source>Chronic apical periodontitis</source>
-        <translation>Parodontite apicale chronique</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="153"/>
         <source>Necrosis of pulp</source>
-        <translation>Nécrose pulpaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="154"/>
         <source>Defective restoration</source>
-        <translation>Restauration défectueuse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="155"/>
         <location filename="../src/Model/Dental/Dental.h" line="63"/>
         <source>Periodontitis</source>
-        <translation>Parodontite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="156"/>
         <source>Pathological resorption</source>
-        <translation>Résorption pathologique</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="157"/>
         <source>Tooth fracture</source>
-        <translation>Fracture dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="158"/>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="202"/>
         <source>Retained dental root</source>
-        <translation>Racine dentaire conservée</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="159"/>
         <source>Dislocation of a tooth</source>
-        <translation>Luxation d&apos;une dent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="160"/>
         <source>Exfoliation</source>
-        <translation>Exfoliation</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="161"/>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="203"/>
         <source>Impacted tooth</source>
-        <translation>Dent incluse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="162"/>
         <source>Presence of dental prosthetic device</source>
-        <translation>Présence d&apos;un dispositif prothétique dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="163"/>
         <source>Loss of teeth due to accident, extraction or local periodontal disease</source>
-        <translation>Perte de dents due à un accident, une extraction ou une maladie parodontale locale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="164"/>
         <source>Supernumerary tooth</source>
-        <translation>Dent surnuméraire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="165"/>
         <source>Deposits on teeth</source>
-        <translation>Dépôts sur les dents</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="199"/>
         <source>Infection and inflammatory reaction due to implants</source>
-        <translation>Infection et réaction inflammatoire dues aux implants</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="206"/>
         <source>Anomalies of tooth position</source>
-        <translation>Anomalies de la position des dents</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/ProcedureCreator.cpp" line="228"/>
         <source>Presence of tooth-root and mandibular implants</source>
-        <translation>Présence d&apos;implants dentaires radiculaires et mandibulaires</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SettingsMainPresenter.cpp" line="66"/>
         <source>You can&apos;t delete the profile which you are using</source>
-        <translation>Vous ne pouvez pas supprimer le profil que vous utilisez</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SettingsMainPresenter.cpp" line="70"/>
         <source>This action cannot be undone. Are you sure?</source>
-        <translation>Cette action ne peut pas être annulée. Êtes-vous sûr ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SettingsMainPresenter.cpp" line="115"/>
         <source>Query successful
  Affected rows: </source>
-        <translation>Requête réussie.
- Lignes concernées : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SurfacePanelPresenter.cpp" line="112"/>
         <source>Secondary Caries</source>
-        <translation>Caries secondaires</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SurfacePanelPresenter.cpp" line="117"/>
         <location filename="../src/Model/Dental/Dental.h" line="50"/>
         <source>Restoration</source>
-        <translation>Restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SurfacePanelPresenter.cpp" line="127"/>
         <location filename="../src/Model/Dental/Dental.h" line="52"/>
         <source>Defective Restoration</source>
-        <translation>Restauration défectueuse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SurfacePanelPresenter.cpp" line="132"/>
         <location filename="../src/Model/Dental/Dental.h" line="53"/>
         <source>Non-Caries Lesion</source>
-        <translation>Lésion non carieuse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/SurfacePanelPresenter.cpp" line="137"/>
         <source>Intact Surface</source>
-        <translation>Surface intacte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Presenter/TabInstance.cpp" line="31"/>
         <source>Do you wish to save changes to </source>
-        <translation>Souhaitez-vous enregistrer les modifications apportées à </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="150"/>
         <source>Reference Invoice #</source>
-        <translation>Numéro de facture de référence #</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="164"/>
         <source>Recipient:</source>
-        <translation>Destinataire :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="165"/>
         <location filename="../src/View/Printer.cpp" line="171"/>
         <source>Name: </source>
-        <translation>Nom : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="166"/>
         <location filename="../src/View/Printer.cpp" line="172"/>
         <source>ID: </source>
-        <translation>ID : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="167"/>
         <location filename="../src/View/Printer.cpp" line="173"/>
         <source>Address: </source>
-        <translation>Adresse : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="168"/>
         <source>Phone number: </source>
-        <translation>Numéro de téléphone : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="170"/>
         <source>Issuer:</source>
-        <translation>Émetteur :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="174"/>
         <source> </source>
-        <translation> </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="176"/>
         <source>Code:</source>
-        <translation>Code :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="177"/>
         <source>Description:</source>
-        <translation>Description :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="178"/>
         <source>Quantity:</source>
-        <translation>Quantité :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="179"/>
         <source>Unit Price:</source>
-        <translation>Prix unitaire :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="180"/>
         <source>Total:</source>
-        <translation>Total:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="232"/>
         <source>Cash</source>
-        <translation>Espèces</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="235"/>
         <location filename="../src/View/Printer.cpp" line="249"/>
         <source>Bank</source>
-        <translation>Banque</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="238"/>
         <source>POS</source>
-        <translation>PDV</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="241"/>
         <source>Combined</source>
-        <translation>Combiné</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="246"/>
         <source>Payment Details</source>
-        <translation>Détails du paiement</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="247"/>
         <source>Tax Event Date</source>
-        <translation>Date de l&apos;événement fiscal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="248"/>
         <source>Type of Payment</source>
-        <translation>Type de paiement</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="250"/>
         <source>IBAN</source>
-        <translation>IBAN</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="251"/>
         <source>BIC</source>
-        <translation>BIC</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="253"/>
         <source>Subtotal</source>
-        <translation>Sous-total</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Printer.cpp" line="254"/>
         <source>VAT </source>
-        <translation>TVA </translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="247"/>
+        <source>New Financial Document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="252"/>
+        <source>Schedule An Appointment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="257"/>
+        <source>Patient History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="262"/>
+        <source>Edit Patient Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="268"/>
+        <source>Copy Current Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="290"/>
+        <source>Result Count: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/ModalDialogBuilder.cpp" line="101"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/ModalDialogBuilder.cpp" line="102"/>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/ModalDialogBuilder.cpp" line="152"/>
+        <source>Save document</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.cpp" line="98"/>
         <location filename="../src/View/Widgets/SettingsDialog.cpp" line="106"/>
         <source>Changes will take effect after restart</source>
-        <translation>Les modifications prendront effet après le redémarrage</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.cpp" line="111"/>
         <source>Add Diagnosis</source>
-        <translation>Ajouter un diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.cpp" line="132"/>
         <source>Edit Diagnosis</source>
-        <translation>Modifier le diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="48"/>
         <source>Healthy Tooth</source>
-        <translation>Dent saine</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="49"/>
         <source>Primary Tooth</source>
-        <translation>Dent de lait</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="55"/>
         <source>Necrosis</source>
-        <translation>Nécrose</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="56"/>
         <source>Resorption</source>
-        <translation>Résorption</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="57"/>
         <source>Apical Lesion</source>
-        <translation>Lésion apicale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="58"/>
         <source>Root Canal Treatment</source>
-        <translation>Traitement du canal radiculaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="59"/>
         <source>Radicular Post</source>
-        <translation>Poteau radiculaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="60"/>
         <source>Rood / Severely Destroyed Tooth</source>
-        <translation>Dent cassée / gravement détruite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="61"/>
         <source>Fracture</source>
-        <translation>Fracture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="62"/>
         <source>Missing Tooth</source>
-        <translation>Dent manquante</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="64"/>
         <source>Mobility</source>
-        <translation>Mobilité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="65"/>
         <source>Crown</source>
-        <translation>Couronne</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="66"/>
         <source>Bridge</source>
-        <translation>Bridge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="67"/>
         <source>Splint / Adhesive Bridge</source>
-        <translation>Attelle /Bridge adhésif</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="68"/>
         <source>Implant</source>
-        <translation>Implant</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="69"/>
         <source>Supernumeral Tooth</source>
-        <translation>Dent surnuméraire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="70"/>
         <source>Impacted Tooth</source>
-        <translation>Dent incluse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="71"/>
         <source>Denture</source>
-        <translation>Prothèse dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="72"/>
         <source>Calculus</source>
-        <translation>Calcul</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="77"/>
         <source>Mobility I</source>
-        <translation>Mobilité I</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="78"/>
         <source>Mobility II</source>
-        <translation>Mobilité II</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="79"/>
         <source>Mobility III</source>
-        <translation>Mobilité III</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="84"/>
         <source>Occlusal/Incisal</source>
-        <translation>Occlusal/Incisal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="85"/>
         <source>Medial</source>
-        <translation>Médial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="86"/>
         <source>Distal</source>
-        <translation>Distal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="87"/>
         <source>Vestibular</source>
-        <translation>Vestibulaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="88"/>
         <source>Lingual</source>
-        <translation>Lingual</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/Model/Dental/Dental.h" line="89"/>
         <source>Cervical</source>
-        <translation>Cervical</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="247"/>
-        <source>New Financial Document</source>
-        <translation>Nouveau document financier</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="252"/>
-        <source>Schedule An Appointment</source>
-        <translation>Prendre rendez-vous</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="257"/>
-        <source>Patient History</source>
-        <translation>Historique du patient</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="262"/>
-        <source>Edit Patient Data</source>
-        <translation>Modifier les données du patient</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="268"/>
-        <source>Copy Current Text</source>
-        <translation>Copier le texte actuel</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/BrowserDialog.cpp" line="290"/>
-        <source>Result Count: </source>
-        <translation>Nombre de résultats: </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3666,7 +3665,7 @@
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.cpp" line="10"/>
         <source>Recipient</source>
-        <translation>Destinataire</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3674,32 +3673,32 @@
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.ui" line="17"/>
         <source>RecipientEditView</source>
-        <translation>DestinataireModifierAfficher</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.ui" line="27"/>
         <source>Identifier:</source>
-        <translation>Identifiant :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.ui" line="34"/>
         <source>Name:</source>
-        <translation>Nom :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.ui" line="41"/>
         <source>Address:</source>
-        <translation>Adresse :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.ui" line="48"/>
         <source>Phone Number:</source>
-        <translation>Numéro de téléphone :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/RecipientEditView.ui" line="134"/>
         <source>ОК</source>
-        <translation>ОК</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3708,30 +3707,30 @@
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="22"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="34"/>
         <source>Name: </source>
-        <translation>Nom : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="23"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="35"/>
         <source>Identifier: </source>
-        <translation>Identifiant : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="24"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="36"/>
         <source>Address: </source>
-        <translation>Adresse : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="25"/>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="37"/>
         <source>Phone Number: </source>
-        <translation>Numéro de téléphone : </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/uiComponents/FinancialTileButton.cpp" line="41"/>
         <source>Recipient</source>
-        <translation>Destinataire</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3739,230 +3738,230 @@
     <message>
         <location filename="../src/View/Widgets/SaveDialog.cpp" line="9"/>
         <source>Yes</source>
-        <translation>oui</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SaveDialog.cpp" line="10"/>
         <source>No</source>
-        <translation>non</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SaveDialog.cpp" line="11"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsDialog</name>
     <message>
-        <location filename="../src/View/Widgets/SettingsDialog.cpp" line="19"/>
-        <source>Settings</source>
-        <translation>Paramètres</translation>
-    </message>
-    <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="20"/>
         <source>SettingsDialog</source>
-        <translation>Boîte de dialogue Paramètres</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="42"/>
         <source>General</source>
-        <translation>Général</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="50"/>
         <source>Dental Notation</source>
-        <translation>Notation dentaire</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="56"/>
         <source>FDI</source>
-        <translation>FDI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="63"/>
         <source>ADA</source>
-        <translation>ADA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="88"/>
         <source>Translation file</source>
-        <translation>Fichier de traduction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="100"/>
         <source>None</source>
-        <translation>Aucun</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="107"/>
         <source>Browse</source>
-        <translation>Parcourir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="114"/>
         <source>Remove Translation File</source>
-        <translation>Supprimer le fichier de traduction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="141"/>
         <source>Dentist</source>
-        <translation>Dentiste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="151"/>
         <source>First name::</source>
-        <translation>Prénom :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="158"/>
         <source>Last name::</source>
-        <translation>Nom de famille :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="165"/>
         <source>Password:</source>
-        <translation>Mot de passe :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="253"/>
         <source>No password</source>
-        <translation>Pas de mot de passe</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="293"/>
         <source>Practice</source>
-        <translation>Pratique</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="299"/>
         <source>Dentists</source>
-        <translation>Dentistes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="337"/>
         <source>Add Dentist</source>
-        <translation>Ajouter un dentiste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="350"/>
         <source>Remove Dentist</source>
-        <translation>Supprimer Dentiste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="381"/>
         <source>Invoice Data</source>
-        <translation>Données de facturation</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="391"/>
         <source>Company:</source>
-        <translation>Entreprise :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="398"/>
         <source>Address:</source>
-        <translation>Adresse :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="405"/>
         <source>Identifier:</source>
-        <translation>Identifiant :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="412"/>
         <source>VAT:</source>
-        <translation>TVA:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="419"/>
         <source>Currency:</source>
-        <translation>Devise :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="426"/>
         <source>Bank:</source>
-        <translation>Banque :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="433"/>
         <source>IBAN:</source>
-        <translation>IBAN:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="440"/>
         <source>BIC (SWIFT):</source>
-        <translation>BIC (SWIFT) :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="558"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="727"/>
         <source>Procedures</source>
-        <translation>Procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="761"/>
         <source>Add Procedure</source>
-        <translation>Ajouter une procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="768"/>
         <source>Remove Procedure</source>
-        <translation>Procédure de suppression</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="791"/>
         <source>Diagnosis List</source>
-        <translation>Liste des diagnostics</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="818"/>
         <source>Add Diagnosis</source>
-        <translation>Ajouter un diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="825"/>
         <source>Remove Diagnosis</source>
-        <translation>Supprimer le diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="848"/>
         <source>SQL</source>
-        <translation>SQL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="876"/>
         <source>Warning! This section provides full control over the database. Certain queries may cause irreversible damage to the information it contains or disrupt the normal functioning of the program.</source>
-        <translation>Attention ! Cette section permet de contrôler entièrement la base de données. Certaines requêtes peuvent causer des dommages irréversibles aux informations qu&apos;elle contient ou perturber le fonctionnement normal du programme.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="907"/>
         <source>Proceed</source>
-        <translation>Continuer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="934"/>
         <source>Enter query</source>
-        <translation>Entrer la requête</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="944"/>
         <source>Execute</source>
-        <translation>Exécuter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="1016"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/SettingsDialog.ui" line="1023"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/SettingsDialog.cpp" line="19"/>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3970,22 +3969,22 @@
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.cpp" line="91"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.cpp" line="95"/>
         <source>Procedure</source>
-        <translation>Procédure</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.cpp" line="100"/>
         <source>Diagnosis</source>
-        <translation>Diagnostic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.cpp" line="108"/>
         <source>Notes</source>
-        <translation>Remarques</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3993,17 +3992,17 @@
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.ui" line="14"/>
         <source>SnapshotViewer</source>
-        <translation>Visionneuse d&apos;instantanés</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.ui" line="85"/>
         <source>&lt;</source>
-        <translation>&lt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SnapshotViewer.ui" line="120"/>
         <source>&gt;</source>
-        <translation>&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4011,47 +4010,47 @@
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="14"/>
         <source>SurfacePanel</source>
-        <translation>Panneaudesurface</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Left Mouse Button: Add Status&lt;br/&gt;Right Mouse Button: Remove Status&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bouton gauche de la souris : ajouter un statut&lt;br/&gt;Bouton droit de la souris : supprimer un statut&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="121"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ляв бутон: добави статус&lt;br/&gt;Десен бутон: прехмахни статус&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bouton gauche de la souris : ajouter un statut&lt;br/&gt;Bouton droit de la souris : supprimer un statut&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="127"/>
         <source>Intact Surface</source>
-        <translation>Surface intacte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="166"/>
         <source>Palatal:</source>
-        <translation>Palatal :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="200"/>
         <source>Notes and procedures</source>
-        <translation>Remarques et procédures</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.ui" line="203"/>
         <source>Notes</source>
-        <translation>Remarques</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.cpp" line="84"/>
         <source>Int</source>
-        <translation>int</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/SurfacePanel.cpp" line="85"/>
         <source>Restoration</source>
-        <translation>Restauration</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4059,22 +4058,22 @@
     <message>
         <location filename="../src/View/SubWidgets/TabTitle.ui" line="20"/>
         <source>TabTitle</source>
-        <translation>Titre de l&apos;onglet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/TabTitle.ui" line="142"/>
         <source>header</source>
-        <translation>en-tête</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/TabTitle.ui" line="166"/>
         <source>footer</source>
-        <translation>pied de page</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/SubWidgets/TabTitle.ui" line="255"/>
         <source>x</source>
-        <translation>x</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4082,7 +4081,7 @@
     <message>
         <location filename="../src/View/Widgets/TabView.ui" line="14"/>
         <source>TabView</source>
-        <translation>Vue par onglet</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4090,22 +4089,22 @@
     <message>
         <location filename="../src/View/Widgets/TableViewDialog.ui" line="22"/>
         <source>TableViewDialog</source>
-        <translation>BoîteAffichagedialogue</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/TableViewDialog.ui" line="33"/>
         <source>Search:</source>
-        <translation>Recherche :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/TableViewDialog.ui" line="63"/>
         <source>Отказ</source>
-        <translation>Refus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/TableViewDialog.ui" line="73"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4113,75 +4112,75 @@
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="26"/>
         <source>VisitView</source>
-        <translation>VisiteVoir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="63"/>
         <source>Number:</source>
-        <translation>Numéro :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="96"/>
         <source>Date:</source>
-        <translation>Date :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="269"/>
         <source>PROCEDURES:</source>
-        <translation>PROCÉDURES :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="305"/>
         <location filename="../src/View/Widgets/VisitView.ui" line="308"/>
         <source>Add</source>
-        <translation>Ajouter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="333"/>
         <location filename="../src/View/Widgets/VisitView.ui" line="336"/>
         <source>Edit</source>
-        <translation>Modifier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="361"/>
         <location filename="../src/View/Widgets/VisitView.ui" line="364"/>
         <source>Delete</source>
-        <translation>Supprimer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="383"/>
         <source>Patient Profile</source>
-        <translation>Profil du patient</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="402"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show Treatment Result&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Afficher le résultat du traitement</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="405"/>
         <source>Result</source>
-        <translation>Résultat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="502"/>
         <source>ADDITIONAL DOCUMENTS:</source>
-        <translation>DOCUMENTS SUPPLÉMENTAIRES :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="551"/>
         <source>Invoice</source>
-        <translation>Facture</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.ui" line="576"/>
         <source>Periodontal Measurment</source>
-        <translation>Mesure parodontale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/VisitView.cpp" line="248"/>
         <source>Total Price: </source>
-        <translation>Prix total : </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4189,63 +4188,63 @@
     <message>
         <location filename="../src/View/Widgets/WelcomeWidget.ui" line="14"/>
         <source>WelcomeWidget</source>
-        <translation>BienvenueWidget</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="417"/>
-        <source>New Dental Visit</source>
-        <translation>Nouvelle visite</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="465"/>
-        <source>New Financial Document</source>
-        <translation>Nouveau document financier</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="513"/>
-        <source>Appointments</source>
-        <translation>Rendez-vous</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/WelcomeWidget.ui" line="223"/>
         <source>New Periodontal measurment</source>
-        <translation>Nouvelle mesure parodontale</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="441"/>
-        <source>New Periodontal Measurment</source>
-        <translation>Nouvelle mesure parodontale</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="489"/>
-        <source>Browse Documents</source>
-        <translation>Parcourir les documents</translation>
-    </message>
-    <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="561"/>
-        <source>Settings</source>
-        <translation>Paramètres</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/WelcomeWidget.ui" line="328"/>
         <location filename="../src/View/Widgets/WelcomeWidget.ui" line="609"/>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="585"/>
-        <source>Make a Donation</source>
-        <translation>faire un don</translation>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="417"/>
+        <source>New Dental Visit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="441"/>
+        <source>New Periodontal Measurment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="465"/>
+        <source>New Financial Document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="489"/>
+        <source>Browse Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="513"/>
+        <source>Appointments</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/WelcomeWidget.ui" line="537"/>
         <source>Reminders</source>
-        <translation>un rappels</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="561"/>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/WelcomeWidget.ui" line="585"/>
+        <source>Make a Donation</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/WelcomeWidget.ui" line="681"/>
         <source>TextLabel</source>
-        <translation>Étiquette de texte</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
