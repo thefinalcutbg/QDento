@@ -27,6 +27,8 @@ This software is based on DinoDent - a software I originally built for Bulgarian
 
 ![Alt text](/screenshots/scr2.png?raw=true)
 
+![Alt text](/screenshots/scr3.png?raw=true)
+
 ## Features
 - Dental status and procedure procedure input
 - Periodontal status
