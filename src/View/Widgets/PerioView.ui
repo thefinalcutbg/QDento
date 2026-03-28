@@ -25,25 +25,10 @@
   <property name="windowTitle">
    <string>PerioView</string>
   </property>
-  <widget class="QStackedWidget" name="stackedWidget">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>230</y>
-     <width>1195</width>
-     <height>801</height>
-    </rect>
-   </property>
-   <property name="currentIndex">
-    <number>1</number>
-   </property>
-   <widget class="PerioStatusView" name="maxilla"/>
-   <widget class="PerioStatusView" name="mandibula"/>
-  </widget>
   <widget class="HalfRoundedButton" name="upperButton">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>433</x>
      <y>170</y>
      <width>151</width>
      <height>31</height>
@@ -59,7 +44,7 @@
   <widget class="HalfRoundedButton" name="lowerButton">
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>583</x>
      <y>170</y>
      <width>161</width>
      <height>31</height>
@@ -71,122 +56,6 @@
    <property name="checkable">
     <bool>true</bool>
    </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>780</x>
-     <y>10</y>
-     <width>101</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Bone loss:</string>
-   </property>
-  </widget>
-  <widget class="QSpinBox" name="boneSpin">
-   <property name="geometry">
-    <rect>
-     <x>880</x>
-     <y>10</y>
-     <width>41</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="buttonSymbols">
-    <enum>QAbstractSpinBox::ButtonSymbols::NoButtons</enum>
-   </property>
-   <property name="suffix">
-    <string>%</string>
-   </property>
-   <property name="maximum">
-    <number>100</number>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="systemicCheck">
-   <property name="geometry">
-    <rect>
-     <x>940</x>
-     <y>10</y>
-     <width>161</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Systemic factors</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="restoreCheck">
-   <property name="geometry">
-    <rect>
-     <x>780</x>
-     <y>150</y>
-     <width>331</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Comprehensive occlusal reconstruction required</string>
-   </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>780</x>
-     <y>40</y>
-     <width>331</width>
-     <height>101</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Smoking:</string>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <widget class="QRadioButton" name="radioSmoke_1">
-        <property name="text">
-         <string>Smoker</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QRadioButton" name="radioSmoke_2">
-        <property name="text">
-         <string>Non-Smoker</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <widget class="QRadioButton" name="radioSmoke_3">
-        <property name="text">
-         <string>10 cigarettes per day</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QRadioButton" name="radioSmoke_4">
-        <property name="text">
-         <string>Up to 20 cigarettes per day</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QRadioButton" name="radioSmoke_5">
-        <property name="text">
-         <string>More than 20 cigarettes per day</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-   </layout>
   </widget>
   <widget class="QLabel" name="riskLabel">
    <property name="geometry">
@@ -212,9 +81,9 @@
   <widget class="PerioStatisticView" name="perioStatistics" native="true">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>1050</y>
-     <width>1121</width>
+     <x>90</x>
+     <y>1000</y>
+     <width>1126</width>
      <height>361</height>
     </rect>
    </property>
@@ -248,26 +117,439 @@
   <widget class="PatientTileInfo" name="patientInfoTile" native="true">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>160</x>
      <y>20</y>
-     <width>551</width>
-     <height>141</height>
+     <width>511</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="RoundedFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>825</x>
+     <y>20</y>
+     <width>391</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QCheckBox" name="restoreCheck">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>148</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Comprehensive occlusal reconstruction required</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="boneSpin">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>8</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::ButtonSymbols::NoButtons</enum>
+    </property>
+    <property name="suffix">
+     <string>%</string>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>38</y>
+      <width>331</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Smoking:</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QRadioButton" name="radioSmoke_1">
+         <property name="text">
+          <string>Smoker</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioSmoke_2">
+         <property name="text">
+          <string>Non-Smoker</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioSmoke_3">
+         <property name="text">
+          <string>10 cigarettes per day</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioSmoke_4">
+         <property name="text">
+          <string>Up to 20 cigarettes per day</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioSmoke_5">
+         <property name="text">
+          <string>More than 20 cigarettes per day</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>8</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bone loss:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="systemicCheck">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>8</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Systemic factors</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>200</y>
+     <width>91</width>
+     <height>757</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Plain</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>60</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Mobility:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Furcation:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Plain</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>FMPS:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>FMBS:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Att. ging:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Recession:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>GM:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>BOP:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>CAL:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>PD:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_20">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>320</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>315</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>PD:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>CAL:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>BOP:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>GM:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Recession:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>Att. ging:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="PerioStatusView" name="maxilla" native="true">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>220</y>
+     <width>1126</width>
+     <height>760</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PerioStatusView" name="mandibula" native="true">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>220</y>
+     <width>1126</width>
+     <height>760</height>
     </rect>
    </property>
   </widget>
   <zorder>patientInfoTile</zorder>
-  <zorder>stackedWidget</zorder>
   <zorder>upperButton</zorder>
   <zorder>lowerButton</zorder>
-  <zorder>label</zorder>
-  <zorder>boneSpin</zorder>
-  <zorder>systemicCheck</zorder>
-  <zorder>restoreCheck</zorder>
-  <zorder>groupBox</zorder>
   <zorder>riskLabel</zorder>
   <zorder>perioStatistics</zorder>
   <zorder>dateEdit</zorder>
   <zorder>label_2</zorder>
+  <zorder>frame</zorder>
+  <zorder>frame_2</zorder>
+  <zorder>maxilla</zorder>
+  <zorder>mandibula</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
@@ -297,6 +579,12 @@
    <class>PerioStatisticView</class>
    <extends>QWidget</extends>
    <header>View/SubWidgets/PerioStatisticView.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RoundedFrame</class>
+   <extends>QFrame</extends>
+   <header>View/uiComponents/RoundedFrame.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

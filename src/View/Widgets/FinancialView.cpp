@@ -8,9 +8,15 @@
 
 
 FinancialView::FinancialView(QWidget *parent)
-	: QWidget(parent)
+	: ShadowBakeWidget(parent)
 {
 	ui.setupUi(this);
+
+	setShadowTargets({ ui.tableFrame, ui.headerFrame });
+
+	ui.tableFrame->setDynamicFocusBorderChange();
+	ui.headerFrame->addVerticalSeparator(ui.recipientButton->width());
+	ui.headerFrame->setFrameColor(Theme::border);
 
 	ui.numberSpinBox->setTotalLength(10);
 
@@ -210,15 +216,6 @@ void FinancialView::setNumberSpinBox(long long num)
 {
 	QSignalBlocker b(ui.numberSpinBox);
 	ui.numberSpinBox->setValue(num);
-}
-
-
-void FinancialView::paintEvent(QPaintEvent*)
-{
-	QPainter painter;
-	painter.begin(this);
-	painter.setRenderHint(QPainter::RenderHint::Antialiasing);
-	painter.fillRect(rect(), Theme::background);
 }
 
 void FinancialView::showMainDocumentDetails(bool show)

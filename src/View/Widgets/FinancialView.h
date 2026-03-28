@@ -3,18 +3,16 @@
 #include <QWidget>
 #include "ui_FinancialView.h"
 #include "Presenter/FinancialPresenter.h"
-
+#include "View/uiComponents/ShadowBakeWidget.h"
 #include "View/TableModels/BusinessOperationModel.h"
 
-class FinancialView : public QWidget
+class FinancialView : public ShadowBakeWidget
 {
 	Q_OBJECT
 
 	FinancialPresenter* presenter{nullptr};
 
 	BusinessOperationModel m_model;
-
-    void paintEvent(QPaintEvent* event) override;
 
     void showMainDocumentDetails(bool show);
 

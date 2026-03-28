@@ -1120,143 +1120,147 @@
         <translation>Vuefinancière</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="61"/>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="80"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="107"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="126"/>
         <source>PushButton</source>
         <translation>Boutonpoussoir</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="91"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="156"/>
         <source>Number</source>
         <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="129"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="194"/>
         <source>Issue Date:</source>
         <translation>Date d&apos;émission :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="152"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="217"/>
         <source>Type:</source>
         <translation>Type:</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="166"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="231"/>
         <source>Invoice</source>
         <translation>Facture</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="171"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="236"/>
         <source>Debit Note</source>
         <translation>Note de débit</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="176"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="241"/>
         <source>Credit Note</source>
         <translation>Note de crédit</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="184"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="249"/>
         <source>Main Document Number:</source>
         <translation>Numéro du document principal :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="222"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="287"/>
         <source>from</source>
         <translation>à partir de</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="275"/>
         <source>Services:</source>
-        <translation>Services :</translation>
+        <translation type="vanished">Services :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="308"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="340"/>
+        <source>SERVICES:</source>
+        <translation>SERVICES:</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="376"/>
         <source>Add Service</source>
         <translation>Ajouter un service</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="311"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="379"/>
         <source>Add</source>
         <translation>Ajouter</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="336"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="404"/>
         <source>Edit Service</source>
         <translation>Modifier le service</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="339"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="407"/>
         <source>Edit</source>
         <translation>Modifier</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="364"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="432"/>
         <source>Remove Service</source>
         <translation>Supprimer le service</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="367"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="435"/>
         <source>Delete</source>
         <translation>Supprimer</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="402"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="470"/>
         <source>Print Current Document</source>
         <translation>Imprimer le document actuel</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="405"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="473"/>
         <source>Print</source>
         <translation>Imprimer</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="441"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="540"/>
         <source>Type of Payment:</source>
         <translation>Type de paiement :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="448"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="547"/>
         <source>Tax Event Date</source>
         <translation>Date de l&apos;événement fiscal</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="466"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="565"/>
         <source>Cash</source>
         <translation>Espèces</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="471"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="570"/>
         <source>Transaction</source>
         <translation>Transaction</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="476"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="575"/>
         <source>POS</source>
         <translation>Point de vente</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="481"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="580"/>
         <source>Combined</source>
         <translation>Combiné</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="543"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="625"/>
         <source>Payment amount:</source>
         <translation>Montant du paiement :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="550"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="632"/>
         <source>VAT amount:</source>
         <translation>Montant de la TVA :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.ui" line="557"/>
+        <location filename="../src/View/Widgets/FinancialView.ui" line="639"/>
         <source>Total amount:</source>
         <translation>Montant total :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/FinancialView.cpp" line="174"/>
+        <location filename="../src/View/Widgets/FinancialView.cpp" line="180"/>
         <source>VAT</source>
         <translation>Taxe sur la valeur ajoutée</translation>
     </message>
@@ -1557,7 +1561,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="216"/>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="218"/>
         <source>Избор на цвят</source>
         <translation>Choix de la couleur</translation>
     </message>
@@ -1572,7 +1576,7 @@
         <translation>Identifiant:</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="250"/>
+        <location filename="../src/View/Widgets/PatientFormDialog.ui" line="267"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -1624,62 +1628,62 @@
 <context>
     <name>PatientTile</name>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="157"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="136"/>
         <source>Next appointment</source>
         <translation>Prochain rendez-vous</translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="163"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="143"/>
         <source>Add reminder</source>
         <translation>Ajouter un rappel</translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="169"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="150"/>
         <source>Patient notes</source>
         <translation>Notes sur les patients</translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="182"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="164"/>
         <source>Sex: </source>
         <translation>Sexe : </translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="183"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="165"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="180"/>
         <location filename="../src/View/uiComponents/TileButton.cpp" line="198"/>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="216"/>
         <source>Date of birth: </source>
         <translation>Date de naissance : </translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="185"/>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="201"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="167"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="183"/>
         <source>Phone number: </source>
         <translation>Numéro de téléphone : </translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="186"/>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="202"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="168"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="184"/>
         <source>Address: </source>
         <translation>Adresse : </translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="187"/>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="203"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="169"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="185"/>
         <source>Age: </source>
         <translation>Âge : </translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="235"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="217"/>
         <source>SN: </source>
         <translation>Numéro de série: </translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="239"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="221"/>
         <source>Male</source>
         <translation>Homme</translation>
     </message>
     <message>
-        <location filename="../src/View/uiComponents/TileButton.cpp" line="239"/>
+        <location filename="../src/View/uiComponents/TileButton.cpp" line="221"/>
         <source>Female</source>
         <translation>Femme</translation>
     </message>
@@ -1687,32 +1691,32 @@
 <context>
     <name>PatientTileInfo</name>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="18"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="20"/>
         <source>Edit</source>
         <translation>Modifier</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="24"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="26"/>
         <source>New Dental Visit</source>
         <translation>Nouvelle consultation dentaire</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="29"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="31"/>
         <source>New Periodontal Measurment</source>
         <translation>Nouvelle mesure parodontale</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="34"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="36"/>
         <source>New Invoice</source>
         <translation>Nouvelle facture</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="39"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="41"/>
         <source>Schedule and Appointment</source>
         <translation>Calendrier et rendez-vous</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="44"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.cpp" line="46"/>
         <source>Patient History</source>
         <translation>Historique du patient</translation>
     </message>
@@ -1725,7 +1729,7 @@
         <translation>Informations sur le patient</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PatientTileInfo.ui" line="59"/>
+        <location filename="../src/View/SubWidgets/PatientTileInfo.ui" line="47"/>
         <source>PushButton</source>
         <translation>Boutonpoussoir</translation>
     </message>
@@ -1733,32 +1737,32 @@
 <context>
     <name>PerioStatisticView</name>
     <message>
-        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="122"/>
+        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="98"/>
         <source> localized</source>
         <translation> localisé</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="122"/>
+        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="98"/>
         <source> generalized</source>
         <translation> généralisé</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="123"/>
+        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="99"/>
         <source> periodontitis</source>
         <translation> parodontite</translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="126"/>
+        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="102"/>
         <source>Diagnosis: </source>
         <translation>Diagnostic : </translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="128"/>
+        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="104"/>
         <source>Risk Assessment: </source>
         <translation>Évaluation des risques : </translation>
     </message>
     <message>
-        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="130"/>
+        <location filename="../src/View/SubWidgets/PerioStatisticView.cpp" line="106"/>
         <source> risk</source>
         <translation> risque</translation>
     </message>
@@ -1934,65 +1938,48 @@
         <translation>Affichage de l&apos;état parodontal</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="58"/>
         <source>Tooth:</source>
-        <translation>Dent :</translation>
+        <translation type="vanished">Dent :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="112"/>
         <source>Mobility:</source>
-        <translation>Mobilité :</translation>
+        <translation type="vanished">Mobilité :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="166"/>
         <source>Furcation:</source>
-        <translation>Furkation :</translation>
+        <translation type="vanished">Furkation :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="225"/>
         <source>FMPS:   </source>
-        <translation>FMPS:   </translation>
+        <translation type="vanished">FMPS:   </translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="256"/>
         <source>FMBS:   </source>
-        <translation>FMBS:   </translation>
+        <translation type="vanished">FMBS:   </translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="321"/>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="984"/>
         <source>Att. ging:</source>
-        <translation>Att. gingivale:</translation>
+        <translation type="vanished">Att. gingivale:</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="378"/>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="930"/>
         <source>Recession:</source>
-        <translation>Récession :</translation>
+        <translation type="vanished">Récession :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="435"/>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="876"/>
         <source>GM:   </source>
-        <translation>GM:   </translation>
+        <translation type="vanished">GM:   </translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="492"/>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="822"/>
         <source>BOP:   </source>
-        <translation>BOP:   </translation>
+        <translation type="vanished">BOP:   </translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="549"/>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="768"/>
         <source>CAL:   </source>
-        <translation>Perte d’attache clinique:   </translation>
+        <translation type="vanished">Perte d’attache clinique:   </translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="606"/>
-        <location filename="../src/View/Widgets/PerioStatusView.ui" line="714"/>
         <source>PD:   </source>
-        <translation>PD:   </translation>
+        <translation type="vanished">PD:   </translation>
     </message>
 </context>
 <context>
@@ -2044,67 +2031,123 @@
         <translation>PerioView</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="53"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="38"/>
         <source>Upper Teeth</source>
         <translation>Dents Dessus</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="69"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="54"/>
         <source>Lower Teeth</source>
         <translation>Dents Bas</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="85"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="242"/>
         <source>Bone loss:</source>
         <translation>Perte osseuse :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="101"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="168"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="117"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="255"/>
         <source>Systemic factors</source>
         <translation>Systemic factors</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="130"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="152"/>
         <source>Comprehensive occlusal reconstruction required</source>
         <translation>Reconstruction occlusale complète nécessaire</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="143"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="184"/>
         <source>Smoking:</source>
         <translation>Fume :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="151"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="192"/>
         <source>Smoker</source>
         <translation>Fumer</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="158"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="199"/>
         <source>Non-Smoker</source>
         <translation>Non-fumeur</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="169"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="210"/>
         <source>10 cigarettes per day</source>
         <translation>10 cigarettes par jour</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="176"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="217"/>
         <source>Up to 20 cigarettes per day</source>
         <translation>Jusqu&apos;à 20 cigarettes par jour</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="183"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="224"/>
         <source>More than 20 cigarettes per day</source>
         <translation>Plus de 20 cigarettes par jour</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/PerioView.ui" line="245"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="293"/>
+        <source>Mobility:</source>
+        <translation>Mobilité :</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="315"/>
+        <source>Furcation:</source>
+        <translation>Furkation :</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="361"/>
+        <source>FMPS:</source>
+        <translation>FMPS:</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="371"/>
+        <source>FMBS:</source>
+        <translation>FMBS:</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="384"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="513"/>
+        <source>Att. ging:</source>
+        <translation>Att. gingivale:</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="394"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="503"/>
+        <source>Recession:</source>
+        <translation>Récession :</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="404"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="493"/>
+        <source>GM:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="414"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="483"/>
+        <source>BOP:</source>
+        <translation>BOP:</translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="424"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="473"/>
+        <source>CAL:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="434"/>
+        <location filename="../src/View/Widgets/PerioView.ui" line="463"/>
+        <source>PD:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../src/View/Widgets/PerioView.ui" line="114"/>
         <source>Date:</source>
         <translation>Date :</translation>
     </message>
@@ -2170,12 +2213,12 @@
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="10"/>
         <source>Edit Procedure</source>
-        <translation type="unfinished">Modifier la procédure</translation>
+        <translation>Modifier la procédure</translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="10"/>
         <source>Add Procedure</source>
-        <translation type="unfinished">Ajouter une procédure</translation>
+        <translation>Ajouter une procédure</translation>
     </message>
     <message>
         <location filename="../src/View/Widgets/ProcedureElementDialog.cpp" line="12"/>
@@ -3346,7 +3389,7 @@
         <translation>Surface intacte</translation>
     </message>
     <message>
-        <location filename="../src/Presenter/TabInstance.cpp" line="31"/>
+        <location filename="../src/Presenter/TabInstance.cpp" line="32"/>
         <source>Do you wish to save changes to </source>
         <translation>Souhaitez-vous enregistrer les modifications apportées à </translation>
     </message>
@@ -4116,70 +4159,70 @@
         <translation>VisiteVoir</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="63"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="102"/>
         <source>Number:</source>
         <translation>Numéro :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="96"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="135"/>
         <source>Date:</source>
         <translation>Date :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="269"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="308"/>
         <source>PROCEDURES:</source>
         <translation>PROCÉDURES :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="305"/>
-        <location filename="../src/View/Widgets/VisitView.ui" line="308"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="344"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="347"/>
         <source>Add</source>
         <translation>Ajouter</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="333"/>
-        <location filename="../src/View/Widgets/VisitView.ui" line="336"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="372"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="375"/>
         <source>Edit</source>
         <translation>Modifier</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="361"/>
-        <location filename="../src/View/Widgets/VisitView.ui" line="364"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="400"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="403"/>
         <source>Delete</source>
         <translation>Supprimer</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="383"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="422"/>
         <source>Patient Profile</source>
         <translation>Profil du patient</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="402"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="441"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show Treatment Result&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>Afficher le résultat du traitement</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="405"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="444"/>
         <source>Result</source>
         <translation>Résultat</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="502"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="568"/>
         <source>ADDITIONAL DOCUMENTS:</source>
         <translation>DOCUMENTS SUPPLÉMENTAIRES :</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="551"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="617"/>
         <source>Invoice</source>
         <translation>Facture</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.ui" line="576"/>
+        <location filename="../src/View/Widgets/VisitView.ui" line="642"/>
         <source>Periodontal Measurment</source>
         <translation>Mesure parodontale</translation>
     </message>
     <message>
-        <location filename="../src/View/Widgets/VisitView.cpp" line="248"/>
+        <location filename="../src/View/Widgets/VisitView.cpp" line="224"/>
         <source>Total Price: </source>
         <translation>Prix total : </translation>
     </message>

@@ -1,6 +1,9 @@
 #pragma once
 
 #include <QWidget>
+#pragma once
+
+#include <QWidget>
 
 #include "View/Widgets/VisitView.h"
 #include "View/Widgets/PerioView.h"
@@ -11,40 +14,50 @@
 #include "ui_TabView.h"
 
 class TabTitle;
+class SmoothWheelScroll;
 
 class TabView : public QWidget
 {
 	Q_OBJECT
 
-	PerioView m_perioView;
-	VisitView m_listView;
-	FinancialView m_financialView;
-	CalendarView m_calendarView;
-	WelcomeWidget welcomeScreen{ nullptr };
+	PerioView* m_perioView;
+	VisitView* m_listView;
+	FinancialView* m_financialView;
+	CalendarView* m_calendarView;
+	WelcomeWidget* welcomeScreen{ nullptr };
 
-	void showTabWidget(QWidget* w);
+	bool showFocusedTabBorder = true;
 
 	TabTitle* getTabTitle(int tabId);
 	int getTabIndex(int tabId);
 
+	void refreshTabBorder(QScrollArea* sa);
+
+	void initTabs();
 
 public:
-	TabView(QWidget *parent = Q_NULLPTR);
+
+	TabView(QWidget* parent = Q_NULLPTR);
 	~TabView();
+
+	void enableViewportUpdates(TabType t);
+	void disableViewportUpdates(TabType t);
 
 	void requestClose(int tabId);
 
-	// Inherited via ITabView
 	void removeAllTabs();
 	void newTab(int tabId, const TabName& tabName);
 	void focusTab(int tabId);
 	void removeCurrentTab();
+	//void changeTabName(const TabName& tabName) override;
 	void changeTabName(const TabName& tabName, int tabId);
 
 	void removeTab(int tabId);
 
 	std::pair<int, int> getScrollPos();
-	void setScrollPos(const std::pair<int, int>& scrollPos);
+	void setScrollPos(std::pair<int, int> scrollPos);
+
+	void showView(TabType t);
 
 	void showListView();
     void showPerioView();
@@ -52,11 +65,11 @@ public:
 	void showWelcomeScreen();
 	void showCalendarView();
 
-	VisitView* listView() { return &m_listView; }
-	PerioView* perioView() { return &m_perioView; }
-	FinancialView* financialView() { return &m_financialView; }
-	CalendarView* calendarView()  { return &m_calendarView; }
-
+	VisitView* listView() { return m_listView; }
+	PerioView* perioView() { return m_perioView; }
+	FinancialView* financialView() { return m_financialView; }
+	CalendarView* calendarView()  { return m_calendarView; }
+	QScrollArea* scrollArea();
 signals:
 	void closeRequested(int mapIndex);
 

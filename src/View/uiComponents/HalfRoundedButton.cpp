@@ -37,6 +37,8 @@ void HalfRoundedButton::paintEvent(QPaintEvent*)
 {
 	QPainter painter(this);
 
+	painter.setRenderHint(QPainter::Antialiasing);
+
 	QColor color{ isChecked() ? Theme::fontTurquoiseClicked : Theme::sectionBackground };
 
 	if (m_hover && !isChecked())

@@ -2,17 +2,16 @@
 
 #include <QWidget>
 #include "ui_PerioStatisticView.h"
+#include "View/uiComponents/RoundedFrame.h"
 
 class HexagonGraphicsItem;
 class PerioStatistic;
 
-class PerioStatisticView : public QWidget
+class PerioStatisticView : public RoundedFrame
 {
 	Q_OBJECT
 
 	HexagonGraphicsItem* hexagonGraphicsItem;
-
-	void paintEvent(QPaintEvent* event);
 
 public:
 	PerioStatisticView(QWidget *parent = nullptr);

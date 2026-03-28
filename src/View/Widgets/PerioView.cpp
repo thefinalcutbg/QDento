@@ -19,9 +19,30 @@
 
 
 PerioView::PerioView(QWidget* parent)
-	: QWidget(parent)
+	: ShadowBakeWidget(parent)
 {
 	ui.setupUi(this);
+
+	setShadowTargets({
+	ui.maxilla,
+	ui.mandibula,
+	ui.patientInfoTile,
+	ui.perioStatistics,
+	ui.frame
+	});
+
+	ui.maxilla->setFrameColor(Theme::border);
+	ui.mandibula->setFrameColor(Theme::border);
+	ui.frame->setFrameColor(Theme::border);
+	ui.perioStatistics->setFrameColor(Theme::border);
+	ui.frame->setDynamicFocusBorderChange();
+
+#ifdef Q_OS_WIN
+	auto margins = ui.frame_2->layout()->contentsMargins();
+	margins.setTop(50);
+	ui.frame_2->layout()->setContentsMargins(margins);
+	ui.label_20->setMinimumHeight(333);
+#endif
 
     connect(ui.dateEdit, &QDateEdit::dateChanged, this, [=, this](QDate d) {if (presenter)presenter->dateChanged(Date{ d.day(), d.month(), d.year() });});
 	QButtonGroup* group = new QButtonGroup(this);
@@ -34,14 +55,16 @@ PerioView::PerioView(QWidget* parent)
 	setFixedHeight(1470);
 
 	ui.upperButton->setChecked(true);
-    connect(ui.upperButton, &QPushButton::clicked, this,
-        [=, this] {
-			ui.stackedWidget->setCurrentWidget(ui.maxilla);
-			presenter->teethViewChanged(false); 
+	connect(ui.upperButton, &QPushButton::clicked, this,
+		[=, this] {
+			ui.maxilla->show();
+			ui.mandibula->hide();
+			presenter->teethViewChanged(false);
 		});
-    connect(ui.lowerButton, &QPushButton::clicked, this,
-        [=, this] {
-			ui.stackedWidget->setCurrentWidget(ui.mandibula); 
+	connect(ui.lowerButton, &QPushButton::clicked, this,
+		[=, this] {
+			ui.maxilla->hide();
+			ui.mandibula->show();
 			presenter->teethViewChanged(true);
 		});
 
@@ -194,7 +217,6 @@ PatientTileInfo* PerioView::patientTile()
 	return ui.patientInfoTile;
 }
 
-
 void PerioView::setMeasurment(int index, int pd, int cal, int gm, int recession)
 {
 	QSignalBlocker b(m_PD[index]);
@@ -214,15 +236,6 @@ void PerioView::setDate(const Date& d)
 	QSignalBlocker b(ui.dateEdit);
 	ui.dateEdit->setDate(QDate(d.year, d.month, d.day));
 }
-
-
-
-void PerioView::paintEvent(QPaintEvent*)
-{
-    QPainter painter(this);
-    painter.fillRect(0, 0, width(), height(), Theme::background);
-}
-
 
 ToothUi PerioView::getUIbyTooth(int idx)
 {

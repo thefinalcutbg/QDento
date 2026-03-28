@@ -8,11 +8,21 @@
 #include <QIcon>
 
 VisitView::VisitView(QWidget* parent)
-	: QWidget(parent), presenter(nullptr)
+	: ShadowBakeWidget(parent), presenter(nullptr)
 {
 	ui.setupUi(this);
 
 	setStyleSheet(Theme::getFancyStylesheet());
+
+	setShadowTargets({
+		ui.patientInfoTile,
+		ui.frame,
+		ui.procedureFrame
+	});
+
+	ui.procedureFrame->setDynamicFocusBorderChange();
+	ui.frame->setDynamicFocusBorderChange();
+	ui.frame->addVerticalSeparator(ui.teethView->width());
 
 	teethViewScene = new TeethViewScene(ui.teethView);
 	contextMenu = new ContextMenu();
@@ -104,40 +114,6 @@ void VisitView::setPresenter(VisitPresenter* presenter)
 	teethViewScene->setPresenter(presenter);
 	ui.controlPanel->setPresenter(presenter);
 	contextMenu->setPresenter(presenter);
-}
-
-void VisitView::paintEvent(QPaintEvent*)
-{
-	QPainter painter;
-	painter.begin(this);
-	painter.setRenderHint(QPainter::RenderHint::Antialiasing);
-	painter.fillRect(rect(), Theme::background);
-
-	QPainterPath path;
-
-	path.addRoundedRect(
-		QRectF(
-			ui.frame->x() + ui.teethView->x(),
-			ui.frame->y() + ui.teethView->y(),
-			ui.frame->width(),
-			ui.frame->height()
-		),
-		Theme::radius/2,
-		Theme::radius/2
-	);
-
-	painter.fillPath(path, Theme::sectionBackground);
-	
-	painter.setPen(QPen(m_teethViewFocused ? Theme::mainBackgroundColor : Theme::border));
-	painter.drawPath(path);
-
-	painter.drawLine(
-		ui.frame->x() + ui.surfacePanel->x(), //x1
-		ui.frame->y(),						  //y1
-		ui.frame->x() + ui.surfacePanel->x(), //x2
-		ui.frame->y() + ui.frame->height() //y2
-	);
-
 }
 
 bool VisitView::eventFilter(QObject* obj, QEvent* event)

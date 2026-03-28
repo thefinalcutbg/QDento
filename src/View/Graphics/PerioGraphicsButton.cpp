@@ -11,25 +11,25 @@ PerioGraphicsButton::PerioGraphicsButton(int index, PerioGraphicsType type, Peri
 
     switch (type)
     {
-        case PerioGraphicsType::Plaque: m_checkedColor.setRgb(204, 228, 247); break;
-        case PerioGraphicsType::Bleeding: m_checkedColor.setRgb(255, 146, 148); break;
+    case PerioGraphicsType::Plaque: m_checkedColor.setRgb(204, 228, 247); break;
+    case PerioGraphicsType::Bleeding: m_checkedColor.setRgb(255, 146, 148); break;
     }
 
     QPointF upLeft(0, 0); QPointF downLeft(0, bounds.height());
     QPointF upRight(bounds.width(), 0); QPointF downRight(bounds.width(), bounds.height());
     QPointF center(bounds.width() / 2, bounds.height() / 2);
 
-    enum position{left, up, right, down};
+    enum position { left, up, right, down };
 
-    switch (index%4)
+    switch (index % 4)
     {
-        case left: surface << upLeft << center << downLeft; break;
-        case up: surface << upLeft << center << upRight; break;
-        case right: surface << upRight << center << downRight; break;
-        case down:surface << downLeft << center << downRight; break;
+    case left: surface << upLeft << center << downLeft; break;
+    case up: surface << upLeft << center << upRight; break;
+    case right: surface << upRight << center << downRight; break;
+    case down:surface << downLeft << center << downRight; break;
     }
 
-    
+
     path.addPolygon(surface);
 
     setAcceptHoverEvents(true);
@@ -39,6 +39,8 @@ void PerioGraphicsButton::paint(QPainter* painter, const QStyleOptionGraphicsIte
 {
 
     painter->setRenderHint(QPainter::Antialiasing);
+
+	painter->fillPath(path, QBrush(Qt::GlobalColor::white));
 
     if (m_disabled)
     {
@@ -74,12 +76,12 @@ QRectF PerioGraphicsButton::boundingRect() const { return bounds; }
 QPainterPath PerioGraphicsButton::shape() const { return path; }
 void PerioGraphicsButton::setDisabled(bool disabled) { m_disabled = disabled; update(); }
 bool PerioGraphicsButton::isEnabled() { return !m_disabled; }
-bool PerioGraphicsButton::isChecked() { return m_checked;  }
+bool PerioGraphicsButton::isChecked() { return m_checked; }
 void PerioGraphicsButton::setChecked(bool checked) { m_checked = checked; update(); }
-void PerioGraphicsButton::hoverEnterEvent(QGraphicsSceneHoverEvent*) { m_hovered = true; update();}
-void PerioGraphicsButton::hoverLeaveEvent(QGraphicsSceneHoverEvent*) { m_hovered = false; update();}
+void PerioGraphicsButton::hoverEnterEvent(QGraphicsSceneHoverEvent*) { m_hovered = true; update(); }
+void PerioGraphicsButton::hoverLeaveEvent(QGraphicsSceneHoverEvent*) { m_hovered = false; update(); }
 void PerioGraphicsButton::mousePressEvent(QGraphicsSceneMouseEvent*)
-{ 
+{
     if (m_disabled) return;
     setChecked(m_checked = !m_checked);
     view->PerioGraphicClicked(m_index, m_type);

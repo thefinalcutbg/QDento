@@ -7,9 +7,9 @@
 #include "Presenter/VisitPresenter.h"
 #include "View/Graphics/TeethViewScene.h"
 #include "View/TableModels/ProcedureTableModel.h"
+#include "View/uiComponents/ShadowBakeWidget.h"
 
-
-class VisitView : public QWidget
+class VisitView : public ShadowBakeWidget
 {
     Q_OBJECT
 
@@ -21,7 +21,6 @@ class VisitView : public QWidget
 
     ProcedureTableModel model;
 
-    void paintEvent(QPaintEvent* event) override;
     bool eventFilter(QObject* obj, QEvent* event) override;
 
     bool m_teethViewFocused {false};

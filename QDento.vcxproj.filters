@@ -560,6 +560,15 @@
     <ClCompile Include="src\View\Printer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\View\uiComponents\ShadowBakeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\uiComponents\RoundedFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\uiComponents\SmoothWheelScroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Version.h">
@@ -1177,6 +1186,15 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\View\Graphics\SelectionBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\View\uiComponents\ShadowBakeWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\View\uiComponents\RoundedFrame.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\View\uiComponents\SmoothWheelScroll.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

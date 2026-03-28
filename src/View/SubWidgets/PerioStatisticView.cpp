@@ -7,30 +7,6 @@
 constexpr std::string_view perioStage[5]{ "Healthy tissue", "Initial" , "Moderate", "Severe", "Progressed" };
 constexpr std::string_view perioRisk[3]{ "Low", "Medium", "High" };
 
-
-void PerioStatisticView::paintEvent(QPaintEvent*)
-{
-	QPainter painter;
-	painter.begin(this);
-	painter.setRenderHint(QPainter::RenderHint::Antialiasing);
-	painter.fillRect(rect(), Theme::background);
-
-	QPainterPath path;
-
-	path.addRoundedRect(
-		QRectF(0, 0, width(), height()),
-		Theme::radius / 2,
-		Theme::radius / 2
-	);
-
-	painter.fillPath(path, Theme::sectionBackground);
-
-	painter.setPen(QPen(Theme::border));
-	painter.drawPath(path);
-
-	painter.end();
-}
-
 QString getComparisonStr(double value, double prevValue, const char* suffix, bool lowerIsBetter = true)
 {
 	if (value == prevValue) {
@@ -61,7 +37,7 @@ QString getComparisonStr(const PerioStatistic& stat, const PerioStatistic& prev,
 }
 
 PerioStatisticView::PerioStatisticView(QWidget *parent)
-	: QWidget(parent)
+	: RoundedFrame(parent)
 {
 	ui.setupUi(this);
 

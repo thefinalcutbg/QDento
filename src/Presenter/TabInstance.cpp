@@ -1,6 +1,7 @@
 #include "TabInstance.h"
 
 #include "View/Widgets/TabView.h"
+#include <QTimer>
 
 void TabInstance::makeEdited()
 {
@@ -48,15 +49,24 @@ void TabInstance::setCurrent()
 {
 	is_current = true;
 
+	_tabView->disableViewportUpdates(type);
+
 	setDataToView();
 
-	switch (type)
-	{
+	QTimer::singleShot(0, [this] {
+		switch (type)
+		{
 		case TabType::DentalVisit: _tabView->showListView(); break;
 		case TabType::PerioStatus: _tabView->showPerioView(); break;
 		case TabType::Financial:_tabView->showFinancialView(); break;;
 		case TabType::Calendar:_tabView->showCalendarView(); break;
+		default: break;
 	}
+
+	setScrollPosition();
+	_tabView->enableViewportUpdates(type);
+	});
+
 
 	setScrollPosition();
 }

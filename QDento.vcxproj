@@ -242,7 +242,10 @@
     <ClCompile Include="src\View\uiComponents\PerioTable.cpp" />
     <ClCompile Include="src\View\uiComponents\PixmapLabel.cpp" />
     <ClCompile Include="src\View\uiComponents\RightClickButton.cpp" />
+    <ClCompile Include="src\View\uiComponents\RoundedFrame.cpp" />
+    <ClCompile Include="src\View\uiComponents\ShadowBakeWidget.cpp" />
     <ClCompile Include="src\View\uiComponents\ShortcutTile.cpp" />
+    <ClCompile Include="src\View\uiComponents\SmoothWheelScroll.cpp" />
     <ClCompile Include="src\View\uiComponents\SpinBox.cpp" />
     <ClCompile Include="src\View\uiComponents\StatusButton.cpp" />
     <ClCompile Include="src\View\uiComponents\StatusMultiButton.cpp" />
@@ -406,7 +409,10 @@
     <ClInclude Include="src\View\uiComponents\FinancialTileButton.h" />
     <ClInclude Include="src\View\uiComponents\MouseWheelGuard.h" />
     <ClInclude Include="src\View\uiComponents\NotesEdit.h" />
+    <QtMoc Include="src\View\uiComponents\ShadowBakeWidget.h" />
+    <QtMoc Include="src\View\uiComponents\RoundedFrame.h" />
     <ClInclude Include="src\View\uiComponents\ShortcutTile.h" />
+    <QtMoc Include="src\View\uiComponents\SmoothWheelScroll.h" />
     <ClInclude Include="src\View\uiComponents\TileButton.h" />
     <ClInclude Include="src\View\Widgets\GlobalWidgets.h" />
     <QtMoc Include="src\View\Widgets\ProcedureElementDialog.h" />

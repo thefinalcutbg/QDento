@@ -3,10 +3,11 @@
 #include <QWidget>
 
 #include "ui_PatientTileInfo.h"
+#include "View/uiComponents/RoundedFrame.h"
 
 struct PatientInfoPresenter;
 
-class PatientTileInfo : public QWidget
+class PatientTileInfo : public RoundedFrame
 {
 	Q_OBJECT
 

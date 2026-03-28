@@ -14,7 +14,7 @@ TileButton::TileButton(QWidget* parent) : QAbstractButton(parent)
     header.setBold(true);
     header.setPointSizeF(info.pointSizeF() + 6);
     infoLabel.setBold(true);
-    Theme::applyShadow(this);
+
     installEventFilter(this);
     setCursor(Qt::PointingHandCursor);
     m_hoverAnimation = new QVariantAnimation(this);
@@ -55,27 +55,6 @@ void TileButton::paintEvent(QPaintEvent*)
 {
     QPainter painter(this);
     painter.setRenderHint(QPainter::SmoothPixmapTransform);
-
-    auto path = QPainterPath();
-    path.addRoundedRect(rect(), Theme::radius / 2, Theme::radius / 2);
-
-    if (m_reveresed) {
-        QTransform mirror(-1, 0, 0, 0, 1, 0, 0, 0, 1);
-        painter.setTransform(mirror);
-        painter.translate(-width(), 0);
-    }
-
-    painter.fillPath(path, Theme::sectionBackground);
-
-    QPen pen(Theme::border);
-    pen.setCosmetic(true);
-    pen.setWidth(2);
-    painter.setPen(pen);
-    painter.drawPath(path);
-
-    if (m_reveresed) {
-        painter.resetTransform();
-    }
 
     QColor textColor = animatedColor(Theme::fontTurquoise, Theme::fontTurquoiseClicked);
     painter.setPen(QPen(textColor));
@@ -155,18 +134,21 @@ PatientTile::PatientTile(QWidget* parent) : TileButton(parent)
 	appointmentButton->setFixedSize(iconSize, iconSize);
     appointmentButton->move(width() - (iconSize + 5), 5);
 	appointmentButton->setToolTip(tr("Next appointment"));
-
+    appointmentButton->setGraphicsEffect(nullptr);
+    
     notificationButton = new IconButton(this);
     notificationButton->setIcon(QIcon(":/icons/icon_bell.png"));
     notificationButton->setFixedSize(iconSize, iconSize);
     notificationButton->move(appointmentButton->x()-40, appointmentButton->y());
     notificationButton->setToolTip(tr("Add reminder"));
+    notificationButton->setGraphicsEffect(nullptr);
 
     notesButton = new IconButton(this);
     notesButton->setIcon(QIcon(":/icons/icon_notes.png"));
     notesButton->setFixedSize(iconSize, iconSize);
     notesButton->move(notificationButton->x() - 40, notificationButton->y());
     notesButton->setToolTip(tr("Patient notes"));
+    notesButton->setGraphicsEffect(nullptr);
 }
 
 
