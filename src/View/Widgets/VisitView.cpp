@@ -140,9 +140,9 @@ bool VisitView::eventFilter(QObject* obj, QEvent* event)
 	return false;
 }
 
-void VisitView::focusTeethView()
+void VisitView::focusTeethView(bool focus)
 {
-	ui.teethView->setFocus();
+	focus ? ui.teethView->setFocus() : ui.teethView->clearFocus();
 }
 
 void VisitView::setDate(const Date& date)
@@ -199,8 +199,7 @@ void VisitView::setSelectedTeeth(const std::vector<int>& selectedIndexes)
 {
 	teethViewScene->setSelectedTeeth(selectedIndexes);
 
-	ui.teethView->update(); //the only way to update qgraphicsview without most of the bugs
-
+	ui.teethView->update();
 }
 
 

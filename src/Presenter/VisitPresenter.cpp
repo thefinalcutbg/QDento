@@ -147,7 +147,11 @@ void VisitPresenter::setDataToView()
     
     refreshProcedureView();
 
+    bool focusTeethView = m_selectedIndexes.size();
+
     view->setSelectedTeeth(m_selectedIndexes);
+
+	view->focusTeethView(focusTeethView);
 }
 
 void VisitPresenter::setAmbDate(const Date& date)

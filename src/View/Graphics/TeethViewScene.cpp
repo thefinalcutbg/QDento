@@ -411,9 +411,11 @@ void TeethViewScene::display(const ToothPaintHint& tooth)
 
 void TeethViewScene::setSelectedTeeth(const std::vector<int> &selectedTeeth)
 {
+    auto teeth = selectedTeeth;
+
     clearSelection();
 
-    for (int i : selectedTeeth){ //read access violation ???
+    for (int i : teeth){
         selectionBox[i]->setSelected(1);
     }
 }

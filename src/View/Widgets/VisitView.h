@@ -30,7 +30,7 @@ public:
 
     void setPresenter(VisitPresenter* presenter);
 
-    void focusTeethView();
+    void focusTeethView(bool focus);
     void setDate(const Date& d);
     void setVisitNumber(int num);
     void setCheckModel(const CheckModel& checkModel, const CheckModel& dsnCheckModel);
