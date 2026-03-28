@@ -148,8 +148,6 @@ void VisitPresenter::setDataToView()
     refreshProcedureView();
 
     view->setSelectedTeeth(m_selectedIndexes);
-
-    view->focusTeethView();
 }
 
 void VisitPresenter::setAmbDate(const Date& date)
